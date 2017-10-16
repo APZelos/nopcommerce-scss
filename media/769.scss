@@ -1,0 +1,547 @@
+
+@media all and(min-width: 769px) {
+	.order-details-page {
+		.selected-checkout-attributes {
+			padding: 0 10px;
+		}
+		.tax-shipping-info {
+			text-align: right;
+		}
+		.totals {
+			float: right;
+			clear: both;
+		}
+		.data-table tr {
+			width: 31.33333%;
+			margin: 40px 1% 0;
+			&:nth-child(2n + 1) {
+				clear: none;
+			}
+			&:nth-child(3n + 1) {
+				clear: both;
+			}
+		}
+		.section.options {
+			text-align: right;
+		}
+	}
+	.product-selectors {
+		text-align: left;
+		.product-viewmode {
+			display: inline-block;
+			float: right;
+			span {
+				display: none;
+			}
+			a {
+				display: inline-block;
+				width: 24px;
+				height: 32px;
+				margin: 0 0 0 12px;
+				background-position: center;
+				background-repeat: no-repeat;
+				opacity: 0.5;
+				&.grid {
+					background-image: $url_44;
+				}
+				&.list {
+					background-image: $url_45;
+				}
+				&.selected {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.item-box {
+		width: 32.33333%;
+		margin: 0 0.5% 50px;
+		&:nth-child(2n + 1) {
+			clear: none;
+		}
+		&:nth-child(3n + 1) {
+			clear: both;
+		}
+	}
+	.gallery {
+		width: 550px;
+	}
+	.variant-picture {
+		float: left;
+		+ .variant-overview {
+			width: auto;
+			margin: 0 0 0 240px;
+		}
+	}
+	.variant-overview {
+		text-align: left;
+	}
+	.product-review-item {
+		.review-title {
+			float: left;
+			max-width: 600px;
+		}
+		.product-review-box {
+			float: right;
+		}
+	}
+	.recurring-payments {
+		width: 100% !important;
+		margin: 20px 0 !important;
+	}
+	.order-progress {
+		padding: 20px;
+		li {
+			margin: 0 10px;
+		}
+		a {
+			min-width: 80px;
+		}
+	}
+	.cart-options {
+		.common-buttons {
+			text-align: right;
+		}
+		.checkout-attributes {
+			padding: 0 10px;
+		}
+		.selected-checkout-attributes {
+			padding: 0 10px;
+		}
+	}
+	.cart-footer {
+		.totals {
+			float: right;
+			width: 45%;
+			margin: 0 2.5%;
+		}
+		.terms-of-service {
+			text-align: left;
+		}
+		.checkout-buttons {
+			text-align: right;
+		}
+		.addon-buttons {
+			text-align: right;
+		}
+		.cart-collaterals {
+			float: left;
+			width: 45%;
+			margin: 0 2.5%;
+			div {
+				text-align: left;
+			}
+			label {
+				text-align: left;
+			}
+		}
+		.estimate-shipping {
+			label {
+				display: block;
+				margin: 0 0 10px;
+			}
+			.buttons {
+				text-align: right;
+			}
+		}
+	}
+	.checkout-page {
+		.selected-checkout-attributes {
+			float: right;
+			text-align: right;
+		}
+		.address-grid {
+			overflow: hidden;
+		}
+		.address-item {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+		.cart-footer .totals {
+			max-width: 350px;
+			margin: 0;
+		}
+	}
+	.shipping-method {
+		.method-name {
+			background-color: $color_black_haze_approx;
+			padding: 10px;
+		}
+		.method-list li {
+			display: inline-block;
+			width: 25%;
+			margin: 20px 2%;
+			vertical-align: top;
+		}
+	}
+	.payment-method {
+		.payment-logo {
+			display: block;
+			background-color: $color_black_haze_approx;
+			padding: 10px;
+		}
+		.payment-details {
+			display: block;
+			width: auto;
+			min-width: 0;
+			margin: 10px 0 0;
+			text-align: center;
+		}
+		.method-list li {
+			display: inline-block;
+			width: 25%;
+			margin: 20px 2%;
+			vertical-align: top;
+		}
+	}
+	.order-review-data {
+		overflow: hidden;
+		> div {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+	}
+	.order-details-area {
+		overflow: hidden;
+		> div {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+	}
+	.shipment-details-area {
+		overflow: hidden;
+		> div {
+			float: left;
+			width: 48%;
+			margin: 0 1% 40px;
+		}
+	}
+	.blog-posts {
+		.tags {
+			float: right;
+			width: 80%;
+			text-align: right;
+		}
+		.buttons {
+			float: left;
+			width: 20%;
+			text-align: left;
+		}
+	}
+	.new-comment {
+		text-align: center;
+		.buttons {
+			text-align: center;
+		}
+	}
+	.comment-info {
+		display: table-cell;
+		width: 15%;
+		margin: 0;
+		vertical-align: top;
+		.username {
+			min-height: 40px;
+			margin: 0;
+			border: none;
+			text-align: center;
+		}
+		.avatar {
+			border: none;
+			img {
+				max-width: 80%;
+				max-height: 80%;
+			}
+		}
+	}
+	.comment-content {
+		display: table-cell;
+		width: 85%;
+		border-left: 1px solid $border_color;
+		vertical-align: top;
+		text-align: left;
+	}
+	.comment-time {
+		min-height: 40px;
+		margin: 0;
+		background-color: $color_black_haze_approx;
+		padding: 10px 15px;
+		font-size: $font_size--xs;;
+		font-weight: normal;
+	}
+	.comment-title {
+		margin: 0 0 -20px;
+		padding: 20px;
+	}
+	.comment-body {
+		padding: 20px;
+	}
+	.forum-actions {
+		overflow: hidden;
+		.actions {
+			float: left;
+		}
+		.pager {
+			float: right;
+			max-width: 450px;
+			li {
+				margin: 2px 4px;
+			}
+			&.upper {
+				display: block;
+			}
+		}
+	}
+	.topic-actions {
+		overflow: hidden;
+		.actions {
+			float: left;
+		}
+		.pager {
+			float: right;
+			max-width: 450px;
+			li {
+				margin: 2px 4px;
+			}
+		}
+		&.lower .actions {
+			display: block;
+		}
+	}
+	.topic-posts {
+		margin: 0 0 30px;
+	}
+	.topic-post {
+		display: table;
+		width: 100%;
+		margin: 0;
+		.post-info {
+			display: table-cell;
+			width: 15%;
+			margin: 0;
+			vertical-align: top;
+			text-align: left;
+		}
+		.user-info {
+			width: auto;
+		}
+		.username {
+			min-height: 40px;
+			margin: 0;
+			border: none;
+			text-align: center;
+		}
+		.avatar {
+			margin: auto;
+			border: none;
+			img {
+				max-width: 80%;
+				max-height: 80%;
+			}
+		}
+		.send-pm {
+			margin: 0 0 20px;
+		}
+		.pm-button {
+			padding: 8px 16px;
+			font-size: $font_size--xxs;;
+		}
+		.post-content {
+			display: table-cell;
+			width: 85%;
+			border-left: 1px solid $border_color;
+			vertical-align: top;
+			text-align: left;
+		}
+		.post-head {
+			min-height: 40px;
+			overflow: hidden;
+			background-color: $color_black_haze_approx;
+		}
+		.post-time {
+			float: left;
+			margin: 0;
+			font-size: $font_size--xs;;
+			font-weight: normal;
+		}
+		.post-actions {
+			float: right;
+			margin: 0;
+			a {
+				margin: 0;
+				line-height: 20px;
+				&.post-link-button {
+					margin: 0 0 0 10px;
+					border-left: 1px solid $border_color;
+					text-align: center;
+				}
+			}
+			.manage-post a {
+			}
+			.quote-post a {
+				min-width: 70px;
+			}
+		}
+		.post-text {
+			padding: 20px 5px;
+		}
+		.post-vote {
+			padding: 20px 0 20px 15px;
+		}
+		.user-stats li {
+			margin: 0;
+		}
+	}
+	.profile-info-box {
+		.pm-button {
+			padding: 8px 16px;
+			font-size: $font_size--xxs;;
+		}
+		.avatar {
+			float: left;
+			margin: 0 15px 15px 0;
+		}
+		.profile-stats {
+			float: left;
+			text-align: left;
+		}
+		.title {
+			text-align: left;
+		}
+		.send-pm {
+			clear: both;
+			text-align: left;
+		}
+	}
+	.forum-table {
+		th {
+			&.replies {
+				display: table-cell;
+			}
+			&.views {
+				display: table-cell;
+			}
+			&.votes {
+				display: table-cell;
+			}
+		}
+		td {
+			&.replies {
+				display: table-cell;
+			}
+			&.views {
+				display: table-cell;
+			}
+			&.votes {
+				display: table-cell;
+			}
+			&.image {
+				max-width: none;
+				div {
+					max-width: none;
+					background-size: initial;
+				}
+			}
+		}
+	}
+	.ui-tabs-nav {
+		text-align: left;
+		li {
+			margin: 0 10px -1px 0 !important;
+		}
+	}
+	.cart tr {
+		width: 31.33333%;
+		margin: 40px 1% 0;
+		&:nth-child(2n + 1) {
+			clear: none;
+		}
+		&:nth-child(3n + 1) {
+			clear: both;
+		}
+	}
+	.product-list .item-box {
+		float: none;
+		width: auto;
+		margin: 0 5px 20px;
+		.picture {
+			float: left;
+			width: 220px;
+			&:hover a img {
+				opacity: 0.85;
+			}
+			+ .details {
+				margin: 0 0 0 240px;
+			}
+		}
+		.product-title {
+			height: auto;
+			padding: 10px 0;
+			font-size: $font_size--xl;;
+		}
+		.description {
+			display: block;
+			margin: 0 0 10px;
+			line-height: 22px;
+		}
+		.prices {
+			height: auto;
+			margin: 0 0 30px;
+		}
+		.buttons {
+		}
+		.product-box-add-to-cart-button {
+			width: auto;
+			min-width: 150px;
+			padding: 0 20px;
+		}
+		.add-to-compare-list-button {
+			width: 42px;
+		}
+		.add-to-wishlist-button {
+			width: 42px;
+		}
+		.product-item:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		&:hover .picture a img {
+			opacity: 1;
+		}
+	}
+	.address-list-page .section {
+		display: inline-block;
+		width: 45%;
+		margin: 20px 1%;
+		vertical-align: top;
+	}
+	.order-list-page .section {
+		display: inline-block;
+		width: 45%;
+		margin: 20px 1%;
+		vertical-align: top;
+	}
+	.return-request-list-page .section {
+		display: inline-block;
+		width: 45%;
+		margin: 20px 1%;
+		vertical-align: top;
+	}
+	.payment-info .info {
+		padding: 30px 75px;
+	}
+	.shipment-details-page .tracking-number .tracking-url {
+		color: $color_main;
+	}
+	.comment-list .comment {
+		display: table;
+		width: 100%;
+		margin: 0;
+		&:last-child {
+			border-bottom: 1px solid $border_color;
+		}
+	}
+}

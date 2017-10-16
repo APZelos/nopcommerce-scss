@@ -1,0 +1,21 @@
+ol {
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+  cursor: pointer;
+  
+	img {
+		border: none;
+		opacity: 0.99;
+  }
+  
+	&:active {
+		outline: none;
+	}
+}

@@ -1,0 +1,525 @@
+
+//original selectors
+//.overview .qty-input, .variant-overview .qty-input
+%extend_29 {
+	width: 45px;
+	height: 43px;
+	padding: 0 12px;
+	text-align: center;
+	font-size: $font_size--s;;
+	color: $font_color;
+}
+//original selectors
+//.forum-edit-page .buttons input, .move-topic-page .buttons input, .private-messages .buttons input
+%extend_66 {
+	min-width: 140px;
+	border: none;
+	background-color: $color_mountain_mist_approx;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: $font_size--s;;
+	color: $white;
+	text-transform: uppercase;
+}
+//original selectors
+//.category-description ul, .manufacturer-description ul, .full-description ul, .topic-block ul, .topic-page ul, .post-body ul
+%extend_6 {
+	margin: 12px 0;
+	padding: 0 0 0 36px;
+	list-style: disc;
+}
+//original selectors
+//.category-description ol, .manufacturer-description ol, .full-description ol, .topic-block ol, .topic-page ol, .post-body ol
+%extend_7 {
+	margin: 12px 0;
+	padding: 0 0 0 36px;
+	list-style: decimal;
+}
+//original selectors
+//.cart th, .data-table th, .forum-table th
+%extend_12 {
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: $border_color;
+	background-color: $color_black_haze_approx;
+	padding: 10px;
+	white-space: nowrap;
+	font-weight: normal;
+}
+//original selectors
+//.cart td, .data-table td, .forum-table td
+%extend_13 {
+	min-width: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent $border_color $border_color;
+	background-color: $white;
+	padding: 20px;
+	color: $font_color;
+}
+//original selectors
+//.item-box .add-to-compare-list-button, .item-box .add-to-wishlist-button
+%extend_19 {
+	width: 20%;
+	border-left: 1px solid $white !important;
+	background-color: $color_gray_nurse_approx;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 0;
+}
+
+//original selectors
+//.home-page-category-grid .title, .sub-category-grid .title
+%extend_20 {
+	text-align: center;
+	font-size: $font_size--xxxl;;
+	font-weight: normal;
+	-webkit-transition: all 0.3s ease;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 0.3s ease;
+}
+
+//original selectors
+//.pager li a, .pager li span
+%extend_21 {
+	display: block;
+	min-width: 35px;
+	height: 35px;
+	border: 1px solid $border_color;
+	background-color: $color_gallery_approx;
+	padding: 8px;
+	text-align: center;
+	font-size: $font_size--xs;;
+	cursor: pointer;
+}
+
+//original selectors
+//.pager li.previous-page *, .pager li.next-page *, .pager li.first-page *, .pager li.last-page *
+%extend_22 {
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 0;
+	color: $white;
+}
+
+//original selectors
+//.gallery .picture img, .gallery .picture-thumbs img, .variant-picture img
+%extend_23 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+//original selectors
+//.overview .button-2, .variant-overview .button-2
+%extend_24 {
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: $color_gray_nurse_approx;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 12px 15px 12px 40px;
+	text-align: left;
+	font-size: $font_size--xs;;
+	color: $font_color;
+}
+
+//original selectors
+//.overview .free-shipping, .variant-overview .free-shipping
+%extend_25 {
+	display: none;
+	margin: 10px 0;
+	background: $url_19 left center no-repeat;
+	padding: 2px 0 2px 28px;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.overview .min-qty-notification, .variant-overview .min-qty-notification
+%extend_26 {
+	margin: 10px 0;
+	font-style: italic;
+	color: $font_color;
+}
+
+//original selectors
+//.overview .old-product-price, .variant-overview .old-product-price, .overview .non-discounted-price, .variant-overview .non-discounted-price
+%extend_27 {
+	font-size: $font_size--xs;;
+	color: $color_mountain_mist_approx;
+	text-decoration: line-through;
+}
+
+//original selectors
+//.overview .product-price, .variant-overview .product-price
+%extend_28 {
+	font-size: $font_size--xxl;;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.overview .qty-dropdown, .variant-overview .qty-dropdown
+%extend_30 {
+	height: 43px;
+	padding: 0 12px;
+	font-size: $font_size--s;;
+	color: $font_color;
+}
+
+//original selectors
+//.overview .add-to-cart-button, .variant-overview .add-to-cart-button
+%extend_31 {
+	height: 43px;
+	border: none;
+	background-color: $color_main;
+	padding: 0 24px;
+	font-size: $font_size--s;;
+	color: $white;
+	text-transform: uppercase;
+}
+
+//original selectors
+//.attributes dt, .attribute-label
+%extend_32 {
+	display: block;
+	margin: 0 0 5px;
+	white-space: nowrap;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.ui-datepicker-calendar th, .ui-datepicker-calendar td
+%extend_33 {
+	width: 14.285%;
+	border: 1px solid $border_color;
+	padding: 0;
+}
+
+//original selectors
+//.ui-datepicker-calendar th span, .ui-datepicker-calendar td a
+%extend_34 {
+	display: block;
+	min-height: 32px;
+	line-height: 32px;
+	color: $font_color;
+}
+
+//original selectors
+//.product-review-item .review-info a, .product-review-helpfulness .vote
+%extend_35 {
+	display: inline-block;
+	padding: 0 5px;
+	color: $color_main;
+	cursor: pointer;
+}
+
+//original selectors
+//.contact-page .button-1, .email-a-friend-page .button-1, .apply-vendor-page .button-1
+%extend_36 {
+	min-width: 140px;
+	border: none;
+	background-color: $color_main;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: $font_size--s;;
+	color: $white;
+	text-transform: uppercase;
+}
+
+//original selectors
+//.registration-page .button-1, .registration-result-page .button-1, .login-page .button-1, .password-recovery-page .button-1, .account-page .button-1, .return-request-page .button-1
+%extend_37 {
+	min-width: 140px;
+	border: none;
+	background-color: $color_main;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: $font_size--s;;
+	color: $white;
+	text-transform: uppercase;
+}
+
+//original selectors
+//.registration-page .vat-note, .customer-info-page .vat-note, .customer-info-page .email-to-revalidate-note
+%extend_38 {
+	display: block;
+	font-size: $font_size--xs;;
+	margin-top: 7px;
+	white-space: normal;
+}
+
+//original selectors
+//.address-list-page .info, .order-list-page .info
+%extend_39 {
+	margin: 0 0 10px;
+	border-top: 1px solid $color_mercury_approx;
+	background-color: $color_alabaster_approx;
+	padding: 20px;
+	line-height: 26px;
+	color: $font_color;
+}
+
+//original selectors
+//.address-list-page .button-2, .order-list-page .button-2
+%extend_40 {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	border: none;
+	padding: 0 0 0 18px;
+	font-size: $font_size--xxxs;;
+	color: $font_color;
+}
+
+//original selectors
+//.remove-discount-button, .remove-gift-card-button
+%extend_41 {
+	width: 16px;
+	height: 16px;
+	border: 1px solid $color_mountain_mist_approx;
+	background: $white $url_1 center no-repeat;
+	cursor: pointer;
+}
+
+//original selectors
+//.shipping-method .method-list, .payment-method .method-list
+%extend_42 {
+	margin: 0 auto 30px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 0;
+}
+
+//original selectors
+//.shipping-method .method-list li label, .payment-method .method-list li label
+%extend_43 {
+	font-size: $font_size--xxs;;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.order-review-data >div, .order-details-area >div, .shipment-details-area >div
+%extend_44 {
+	width: 350px;
+	max-width: 100%;
+	margin: 0 auto 40px;
+	background-color: $color_alabaster_approx;
+	padding: 20px;
+	color: $font_color;
+}
+
+//original selectors
+//.order-review-data .title, .order-details-area .title, .shipment-details-area .title
+%extend_45 {
+	margin: 0 0 5px;
+	padding: 0;
+	font-size: $font_size--m;;
+	font-weight: bold;
+}
+
+//original selectors
+//.opc .step-title .number, .opc .step-title .title
+%extend_46 {
+	float: left;
+	min-height: 40px;
+	padding: 10px 15px;
+	line-height: 20px;
+	font-size: $font_size--m;;
+	font-weight: normal;
+}
+
+//original selectors
+//.post-title, .news-title
+%extend_47 {
+	display: inline-block;
+	padding: 20px 10px;
+	line-height: 20px;
+	font-size: $font_size--m;;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.post-date, .news-date
+%extend_48 {
+	display: block;
+	margin: 0 0 15px;
+	background-color: $color_black_haze_approx;
+	padding: 10px;
+	font-style: italic;
+	color: $font_color;
+}
+
+//original selectors
+//.post-body, .news-body
+%extend_49 {
+	margin: 0 0 20px;
+	padding: 0 10px;
+	line-height: 22px;
+}
+
+//original selectors
+//.blog-page .tags, .blogpost-page .tags
+%extend_50 {
+	margin: 0 0 15px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+//original selectors
+//.blog-page .tags label, .blogpost-page .tags label
+%extend_51 {
+	display: inline-block;
+	margin: 0 3px 3px 0;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.blog-page .tags ul, .blogpost-page .tags ul
+%extend_52 {
+	display: inline-block;
+	margin: 0 0 3px 3px;
+	font-size: 0;
+}
+
+//original selectors
+//.blog-posts .buttons .read-more, .news-items .buttons .read-more
+%extend_53 {
+	display: inline-block;
+	border: none;
+	background-color: $color_main;
+	padding: 10px 20px;
+	font-size: $font_size--xxxs;;
+	color: $white;
+	text-transform: uppercase;
+}
+
+//original selectors
+//.forum-search-page .search-error, .forum-search-page .no-result
+%extend_54 {
+	margin: 0 0 15px;
+	text-align: center;
+	color: $color_error;
+}
+
+//original selectors
+//.forums-table-section-title a, .forums-table-section-title strong
+%extend_55 {
+	font-size: $font_size--xxxl;;
+	font-weight: normal;
+	color: $font_color;
+}
+
+//original selectors
+//.forums-table-section .forum-title a, .forums-table-section .topic-title a
+%extend_56 {
+	font-size: $font_size--m;;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.forum-page .forum-name, .forum-topic-page .topic-name
+%extend_57 {
+	margin: 0 0 25px;
+	border-bottom: 1px solid $border_color;
+	padding: 0 10px 10px;
+}
+
+//original selectors
+//.forum-actions .actions a, .topic-actions .actions a
+%extend_58 {
+	display: inline-block;
+	margin: 1px;
+	padding: 10px 10px 10px 33px;
+	font-size: $font_size--xs;;
+}
+
+//original selectors
+//.topic-post .avatar, .profile-info-box .avatar
+%extend_59 {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 1px solid $border_color;
+	overflow: hidden;
+}
+
+//original selectors
+//.topic-post .avatar img, .profile-info-box .avatar img
+%extend_60 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+//original selectors
+//.topic-post .user-stats span, .profile-info-box .profile-stats span
+%extend_61 {
+	margin: 0 0 0 3px;
+	font-weight: bold;
+	color: $font_color;
+}
+
+//original selectors
+//.topic-post .pm-button, .profile-info-box .pm-button
+%extend_62 {
+	display: inline-block;
+	border: none;
+	background-color: $color_suva_gray_approx;
+	padding: 10px 20px;
+	font-size: $font_size--xxxs;;
+	color: $white;
+	text-transform: uppercase;
+}
+
+//original selectors
+//.topic-post .quote, .latest-posts .quote
+%extend_63 {
+	margin: 10px 0;
+	border: 1px dashed $border_color--alt;
+	background-color: $color_alabaster_approx;
+	padding: 10px;
+	color: $font_color--alt;
+}
+
+//original selectors
+//.forum-edit-page .bb-code-editor-wrapper, .private-message-send-page .bb-code-editor-wrapper
+%extend_64 {
+	max-width: 400px;
+	margin: 20px auto;
+	background-color: $border_color;
+	padding: 10px;
+}
+
+//original selectors
+//.forum-edit-page .toolbar .button, .private-message-send-page .toolbar .button
+%extend_65 {
+	margin: 0 2px 0 0;
+	border: $color_soft_amber_approx 1px solid;
+	padding: 2px;
+}
+
+//original selectors
+//.private-messages-page .buttons .button-1, .private-messages-page .buttons .button-2, .private-message-view-page .buttons .button-1, .private-message-view-page .buttons .button-2
+%extend_67 {
+	display: block;
+	width: 250px;
+	margin: 0 auto 3px;
+	font-size: $font_size--s;;
+}

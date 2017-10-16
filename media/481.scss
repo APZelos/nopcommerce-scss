@@ -1,0 +1,149 @@
+
+@media all and(min-width: 481px) {
+	.product-filter {
+		display: table-cell;
+		vertical-align: top;
+		text-align: left;
+		&.price-range-filter {
+			width: 200px;
+		}
+		.product-spec-group {
+			float: left;
+			margin: 0 25px 10px 0;
+			&.product-spec-color {
+				max-width: 190px;
+			}
+		}
+		.group li {
+			&.item {
+				display: block;
+				margin: 0;
+			}
+			&.color-item {
+				display: inline-block;
+			}
+		}
+	}
+	.item-box {
+		width: 49%;
+		margin: 0 0.5% 50px;
+		.product-rating-box {
+			margin: 0 0 15px;
+		}
+		.prices {
+			min-height: 40px;
+		}
+		.product-title {
+			min-height: 42px;
+			margin: 0 0 5px;
+		}
+		&:nth-child(2n + 1) {
+			clear: both;
+		}
+	}
+	.forums-header {
+		background-color: $color_alabaster_approx;
+		padding: 30px 20px 20px;
+	}
+	.cart tr {
+		width: 46%;
+		margin: 40px 2% 0;
+		&:nth-child(2n + 1) {
+			clear: both;
+		}
+	}
+	.order-details-page .data-table tr {
+		width: 46%;
+		margin: 40px 2% 0;
+		&:nth-child(2n + 1) {
+			clear: both;
+		}
+	}
+	.overview-buttons div {
+		display: inline-block;
+		width: auto;
+		margin: 0 1px 2px;
+	}
+	.wishlist-content .button-2 {
+		display: inline-block;
+		width: auto;
+		min-width: 140px;
+		margin: 0 1px 5px;
+	}
+	.enter-password-form input[type="password"] {
+		width: 260px;
+	}
+	.ui-tabs-nav li {
+		display: inline-block;
+		min-width: 150px;
+		margin: 0 5px -1px !important;
+	}
+	.private-messages-page .buttons {
+		.button-1 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+		.button-2 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+	}
+	.private-message-view-page .buttons {
+		.button-1 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+		.button-2 {
+			display: inline-block;
+			width: auto;
+			margin: 1px;
+		}
+	}
+	.topic-post .post-text {
+		float: left;
+		width: 90.5%;
+		text-align: left;
+	}
+	.forum-group .forum-table {
+		th {
+			&.latest-post {
+				display: table-cell;
+			}
+			&.topics {
+				display: table-cell;
+			}
+			&.posts {
+				display: table-cell;
+			}
+		}
+		td {
+			&.latest-post {
+				display: table-cell;
+			}
+			&.topics {
+				display: table-cell;
+			}
+			&.posts {
+				display: table-cell;
+			}
+		}
+	}
+	.topic-group .forum-table {
+		th.latest-post {
+			display: table-cell;
+		}
+		td.latest-post {
+			display: table-cell;
+		}
+	}
+	.forum-table td.image {
+		max-width: 40px;
+		div {
+			max-width: 100%;
+			background-size: contain;
+		}
+	}
+}
