@@ -91,6 +91,7 @@ $breakpoint_xl: 1367px;
 @import './category-page/_item-box.scss';
 @import './category-page/_grids.scss';
 @import './category-page/_pager.scss';
+@import './product-page/_product-details-page.scss';
 
 
 .link-rss {
@@ -399,9 +400,6 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-.product-details-page {
-	padding: 20px 0 0;
-}
 .product-essential {
 	margin: 0 0 40px;
 	border-bottom: 1px solid $border_color;
@@ -1091,6 +1089,8 @@ $breakpoint_xl: 1367px;
 		height: 150px;
 	}
 }
+
+
 .product-reviews-page {
 	.title {
 		margin: 0 0 20px;
