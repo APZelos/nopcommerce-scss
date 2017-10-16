@@ -98,6 +98,7 @@ $breakpoint_xl: 1367px;
 @import './product-page/_variant-overview.scss';
 @import './product-page/_product.scss';
 @import './product-page/_customer-entered-price.scss';
+@import './product-page/_tier-prices.scss';
 
 
 .link-rss {
@@ -406,26 +407,6 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-
-.tier-prices {
-	margin: 0 0 20px;
-	.title {
-		display: none;
-	}
-	.field-header {
-		min-width: 80px;
-	}
-	.item-price {
-		background-color: $color_alabaster_approx;
-		font-size: $font_size--m;
-		color: $color_error;
-	}
-	table td {
-		border: 1px solid $border_color;
-		padding: 10px;
-		color: $font_color;
-	}
-}
 
 .attributes {
 	margin: 20px 0;
