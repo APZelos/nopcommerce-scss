@@ -1,29 +1,5 @@
 
 @media all and(min-width: 481px) {
-	.product-filter {
-		display: table-cell;
-		vertical-align: top;
-		text-align: left;
-		&.price-range-filter {
-			width: 200px;
-		}
-		.product-spec-group {
-			float: left;
-			margin: 0 25px 10px 0;
-			&.product-spec-color {
-				max-width: 190px;
-			}
-		}
-		.group li {
-			&.item {
-				display: block;
-				margin: 0;
-			}
-			&.color-item {
-				display: inline-block;
-			}
-		}
-	}
 	.item-box {
 		width: 49%;
 		margin: 0 0.5% 50px;

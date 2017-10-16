@@ -25,34 +25,6 @@
 			text-align: right;
 		}
 	}
-	.product-selectors {
-		text-align: left;
-		.product-viewmode {
-			display: inline-block;
-			float: right;
-			span {
-				display: none;
-			}
-			a {
-				display: inline-block;
-				width: 24px;
-				height: 32px;
-				margin: 0 0 0 12px;
-				background-position: center;
-				background-repeat: no-repeat;
-				opacity: 0.5;
-				&.grid {
-					background-image: $url_44;
-				}
-				&.list {
-					background-image: $url_45;
-				}
-				&.selected {
-					opacity: 1;
-				}
-			}
-		}
-	}
 	.item-box {
 		width: 32.33333%;
 		margin: 0 0.5% 50px;
