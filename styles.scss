@@ -90,6 +90,7 @@ $breakpoint_xl: 1367px;
 @import './category-page/_product-filters.scss';
 @import './category-page/_item-box.scss';
 @import './category-page/_grids.scss';
+@import './category-page/_pager.scss';
 
 
 .link-rss {
@@ -395,48 +396,6 @@ $breakpoint_xl: 1367px;
 	}
 	.topic-details {
 		text-align: left;
-	}
-}
-
-.pager {
-	margin: 0 0 20px;
-	ul {
-		text-align: right;
-		font-size: 0;
-	}
-	li {
-		display: inline-block;
-		margin: 0 5px;
-		vertical-align: top;
-		a {
-			@extend %extend_21;
-			&:hover {
-				border-color: transparent;
-				background-color: $border_color;
-			}
-		}
-		span {
-			@extend %extend_21;
-			border-color: transparent;
-			background-color: $color_main;
-			color: $white;
-		}
-		&.previous-page * {
-			@extend %extend_22;
-			background-image: $url_12;
-		}
-		&.next-page * {
-			@extend %extend_22;
-			background-image: $url_13;
-		}
-		&.first-page * {
-			@extend %extend_22;
-			background-image: $url_14;
-		}
-		&.last-page * {
-			@extend %extend_22;
-			background-image: $url_15;
-		}
 	}
 }
 

@@ -59,29 +59,6 @@
 }
 
 //original selectors
-//.pager li a, .pager li span
-%extend_21 {
-	display: block;
-	min-width: 35px;
-	height: 35px;
-	border: 1px solid $border_color;
-	background-color: $color_gallery_approx;
-	padding: 8px;
-	text-align: center;
-	font-size: $font_size--xs;;
-	cursor: pointer;
-}
-
-//original selectors
-//.pager li.previous-page *, .pager li.next-page *, .pager li.first-page *, .pager li.last-page *
-%extend_22 {
-	background-position: center;
-	background-repeat: no-repeat;
-	font-size: 0;
-	color: $white;
-}
-
-//original selectors
 //.gallery .picture img, .gallery .picture-thumbs img, .variant-picture img
 %extend_23 {
 	position: absolute;
