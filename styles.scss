@@ -93,6 +93,7 @@ $breakpoint_xl: 1367px;
 @import './category-page/_pager.scss';
 @import './product-page/_product-details-page.scss';
 @import './product-page/_product-essential.scss';
+@import './product-page/_gallery.scss';
 
 
 .link-rss {
@@ -401,52 +402,6 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-.gallery {
-	margin: 0 auto 50px;
-	.picture-wrapper {
-		margin: 0 0 10px;
-	}
-	.picture {
-		position: relative;
-		max-width: 100%;
-		margin: 0 auto 10px;
-		overflow: hidden;
-		&:before {
-			content: "";
-			display: block;
-			padding-top: 100%;
-		}
-		img {
-			@extend %extend_23;
-		}
-	}
-	.picture-thumbs {
-		overflow: hidden;
-		font-size: 0;
-		img {
-			@extend %extend_23;
-		}
-		.thumb-item {
-			display: inline-block;
-			position: relative;
-			width: 100px;
-			height: 100px;
-			margin: 0 5px 10px;
-			overflow: hidden;
-			cursor: pointer;
-		}
-	}
-}
-.variant-picture {
-	position: relative;
-	width: 220px;
-	height: 220px;
-	margin: 0 auto 15px;
-	overflow: hidden;
-	img {
-		@extend %extend_23;
-	}
-}
 .overview {
 	position: relative;
 	margin: 0 0 50px;

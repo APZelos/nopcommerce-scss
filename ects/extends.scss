@@ -59,19 +59,6 @@
 }
 
 //original selectors
-//.gallery .picture img, .gallery .picture-thumbs img, .variant-picture img
-%extend_23 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-}
-
-//original selectors
 //.overview .button-2, .variant-overview .button-2
 %extend_24 {
 	display: block;
