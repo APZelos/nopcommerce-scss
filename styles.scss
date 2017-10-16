@@ -94,6 +94,7 @@ $breakpoint_xl: 1367px;
 @import './product-page/_product-details-page.scss';
 @import './product-page/_product-essential.scss';
 @import './product-page/_gallery.scss';
+@import './product-page/_overview.scss';
 
 
 .link-rss {
@@ -402,153 +403,6 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-.overview {
-	position: relative;
-	margin: 0 0 50px;
-	.discontinued-product {
-		background: $color_concrete_approx;
-		margin: 0 0 20px;
-		h4 {
-			display: inline-block;
-			font-size: $font_size--xs;;
-			padding: 17px 17px 17px 40px;
-			background: $url_16 no-repeat 13px center;
-			color: $color_valencia_approx;
-		}
-	}
-	.product-name {
-		margin: 0 0 25px;
-		border-bottom: 1px solid $border_color;
-		padding: 0 0 10px;
-		h1 {
-			font-size: $font_size--title;;
-			font-weight: normal;
-		}
-	}
-	.short-description {
-		margin: 0 0 25px;
-		line-height: 22px;
-		color: $font_color;
-	}
-	.value {
-		color: $font_color;
-		a {
-			color: $color_main;
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
-	.button-2 {
-		@extend %extend_24;
-		&:hover {
-			background-color: $border_color;
-		}
-	}
-	.add-to-compare-list-button {
-		background-image: $url_10;
-	}
-	.email-a-friend-button {
-		background-image: $url_17;
-	}
-	.subscribe-button {
-		background-image: $url_17;
-	}
-	.download-sample-button {
-		background-image: $url_18;
-	}
-	.add-to-wishlist-button {
-		background-image: $url_11;
-	}
-	.manufacturers {
-		margin: 0 0 20px;
-	}
-	.availability {
-		margin: 0 0 20px;
-		overflow: hidden;
-		.stock {
-			margin: 0 0 10px;
-		}
-		.back-in-stock-subscription {
-			display: inline-block;
-		}
-	}
-	.additional-details {
-		margin: 0 0 20px;
-		div {
-			margin: 0 0 8px;
-		}
-	}
-	.delivery {
-		overflow: hidden;
-	}
-	.free-shipping {
-		@extend %extend_25;
-		&.visible {
-			display: inline-block;
-		}
-	}
-	.delivery-date {
-		margin: 10px 0;
-	}
-	.min-qty-notification {
-		@extend %extend_26;
-	}
-	.download-sample {
-		display: inline-block;
-		margin: 0 0 25px;
-	}
-	.prices {
-		margin: 0 0 10px;
-		overflow: hidden;
-		> div {
-			margin: 0 0 5px;
-			> span {
-				vertical-align: middle;
-			}
-		}
-	}
-	.old-product-price {
-		@extend %extend_27;
-	}
-	.non-discounted-price {
-		@extend %extend_27;
-	}
-	.product-price {
-		@extend %extend_28;
-	}
-	.add-to-cart {
-		margin: 0 0 20px;
-	}
-	.add-to-cart-panel {
-		display: inline-block;
-		position: relative;
-		> * {
-			float: left;
-		}
-	}
-	.qty-label {
-		display: none !important;
-	}
-	.qty-input {
-		@extend %extend_29;
-	}
-	.qty-dropdown {
-		@extend %extend_30;
-	}
-	.add-to-cart-button {
-		@extend %extend_31;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.tax-shipping-info a {
-		color: $color_main;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-}
 .product-no-reviews {
 	margin: 0 0 25px;
 	color: $font_color;
@@ -680,7 +534,7 @@ $breakpoint_xl: 1367px;
 	.variant-name {
 		margin: 0 0 10px;
 		padding: 10px 0;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		font-weight: bold;
 		color: $color_main;
 	}
@@ -739,7 +593,7 @@ $breakpoint_xl: 1367px;
 	}
 	.item-price {
 		background-color: $color_alabaster_approx;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		color: $color_error;
 	}
 	table td {
@@ -756,7 +610,7 @@ $breakpoint_xl: 1367px;
 	margin: 0 0 75px;
 	.title {
 		margin: 0 0 10px;
-		font-size: $font_size--xl;;
+		font-size: $font_size--xl;
 		color: $font_color;
 		strong {
 			font-weight: normal;
@@ -784,7 +638,7 @@ $breakpoint_xl: 1367px;
 	font-size: 0;
 	li {
 		display: inline-block;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		&.separator {
 			margin: 0 5px 0 3px;
 		}
@@ -1002,7 +856,7 @@ $breakpoint_xl: 1367px;
 		padding-top: 5px;
 		text-align: left;
 		width: 198px;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		border-bottom: 1px $color_gallery_approx solid;
 	}
 	.tooltip-body {
@@ -1040,7 +894,7 @@ $breakpoint_xl: 1367px;
 .product-reviews-page {
 	.title {
 		margin: 0 0 20px;
-		font-size: $font_size--xxl;;
+		font-size: $font_size--xxl;
 		color: $font_color;
 		strong {
 			font-weight: normal;
@@ -1072,7 +926,7 @@ $breakpoint_xl: 1367px;
 		label {
 			display: block;
 			margin: 0 0 5px;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 		}
 		ul {
 			font-size: 0;
@@ -1083,7 +937,7 @@ $breakpoint_xl: 1367px;
 			margin: 0 5px;
 			cursor: default;
 			vertical-align: middle;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 			height: 17px;
 			&.first {
 				color: $color_error;
@@ -1107,7 +961,7 @@ $breakpoint_xl: 1367px;
 		background-color: $color_main;
 		padding: 10px 25px;
 		text-align: center;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -1128,7 +982,7 @@ $breakpoint_xl: 1367px;
 	}
 	.review-title {
 		line-height: 20px;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $font_color;
 	}
 	.product-review-box {
@@ -1230,7 +1084,7 @@ $breakpoint_xl: 1367px;
 		padding: 10px 25px;
 		text-align: center;
 		line-height: 20px;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 	}
 	.update-wishlist-button {
@@ -1262,7 +1116,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 20px;
 		background-color: $color_main;
 		padding: 10px 15px;
-		font-size: $font_size--xxxs;;
+		font-size: $font_size--xxxs;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -1299,7 +1153,7 @@ $breakpoint_xl: 1367px;
 		border: none;
 		background: $url_22 left center no-repeat;
 		padding: 0 0 0 18px;
-		font-size: $font_size--xxxs;;
+		font-size: $font_size--xxxs;
 		color: $font_color;
 		&:hover {
 			color: $color_main;
@@ -1341,14 +1195,14 @@ $breakpoint_xl: 1367px;
 	border-bottom: 1px solid $border_color;
 	padding: 0 0 15px;
 	h2 {
-		font-size: $font_size--title;;
+		font-size: $font_size--title;
 		font-weight: normal;
 	}
 }
 .topic-block-body {
 	text-align: justify;
 	line-height: 24px;
-	font-size: $font_size--m;;
+	font-size: $font_size--m;
 }
 .topic-password {
 	text-align: center;
@@ -1490,7 +1344,7 @@ $breakpoint_xl: 1367px;
 	border: none;
 	background-color: $color_suva_gray_approx;
 	padding: 10px 15px;
-	font-size: $font_size--xxxs;;
+	font-size: $font_size--xxxs;
 	color: $white;
 	text-transform: uppercase;
 	&:hover {
@@ -1538,7 +1392,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 30px;
 		padding: 30px 0;
 		text-align: center;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		color: $color_success;
 	}
 }
@@ -1557,7 +1411,7 @@ $breakpoint_xl: 1367px;
 	}
 	.title {
 		margin: 0 0 15px;
-		font-size: $font_size--xxl;;
+		font-size: $font_size--xxl;
 		color: $font_color;
 		strong {
 			font-weight: normal;
@@ -1598,7 +1452,7 @@ $breakpoint_xl: 1367px;
 				display: inline-block;
 				width: auto;
 				margin: 5px;
-				font-size: $font_size--xs;;
+				font-size: $font_size--xs;
 				color: $font_color;
 			}
 			a:hover {
@@ -1655,7 +1509,7 @@ $breakpoint_xl: 1367px;
 		}
 	}
 	.return-request-file {
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		.uploadedfileinput {
 			display: inline-block;
 		}
@@ -1667,15 +1521,15 @@ $breakpoint_xl: 1367px;
 .customer-info-page {
 	.email-to-revalidate {
 		margin: 0 5px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 	}
 	.readonly-username {
 		margin: 0 5px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 	}
 	.vat-status {
 		margin: 0 5px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		display: block;
 	}
 	.vat-note {
@@ -1691,7 +1545,7 @@ $breakpoint_xl: 1367px;
 	text-align: center;
 	.title {
 		margin: 0 0 15px;
-		font-size: $font_size--xxl;;
+		font-size: $font_size--xxl;
 		color: $font_color;
 	}
 	.buttons {
@@ -1725,7 +1579,7 @@ $breakpoint_xl: 1367px;
 	.info {
 		@extend %extend_39;
 		.name {
-			font-size: $font_size--m;;
+			font-size: $font_size--m;
 			font-weight: bold;
 		}
 	}
@@ -1744,7 +1598,7 @@ $breakpoint_xl: 1367px;
 	.info {
 		@extend %extend_39;
 		.name {
-			font-size: $font_size--m;;
+			font-size: $font_size--m;
 			font-weight: bold;
 		}
 	}
@@ -1789,7 +1643,7 @@ $breakpoint_xl: 1367px;
 }
 .recurring-payments {
 	.button-2 {
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 	}
 	table td {
 		white-space: nowrap;
@@ -1818,7 +1672,7 @@ $breakpoint_xl: 1367px;
 	}
 	.comments div {
 		margin: 10px 0 0;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		font-style: italic;
 		color: $font_color;
 	}
@@ -1860,13 +1714,13 @@ $breakpoint_xl: 1367px;
 		}
 	}
 	.button-1 {
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 	}
 	.button-2 {
 		border: none;
 		background-color: $color_suva_gray_approx;
 		padding: 10px 15px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -1882,7 +1736,7 @@ $breakpoint_xl: 1367px;
 		border: medium none;
 		background-color: $color_suva_gray_approx;
 		padding: 10px 15px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -1920,7 +1774,7 @@ $breakpoint_xl: 1367px;
 	a {
 		display: block;
 		min-width: 70px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		color: $font_color;
 		&:before {
 			content: "";
@@ -1963,7 +1817,7 @@ $breakpoint_xl: 1367px;
 			border: none;
 			background-color: $color_silver_chalice_approx;
 			padding: 10px 20px;
-			font-size: $font_size--s;;
+			font-size: $font_size--s;
 			color: $white;
 			&:hover {
 				background-color: $color_mountain_mist_approx;
@@ -2015,7 +1869,7 @@ $breakpoint_xl: 1367px;
 		border: 1px solid $border_color;
 		background-color: $white;
 		padding: 8px 10px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		label {
 			display: inline-block;
 			margin: 0 0 0 5px;
@@ -2066,7 +1920,7 @@ $breakpoint_xl: 1367px;
 		border: none;
 		background-color: $color_main;
 		padding: 10px 20px;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2092,7 +1946,7 @@ $breakpoint_xl: 1367px;
 		font-style: italic;
 	}
 	.order-total {
-		font-size: $font_size--xxl;;
+		font-size: $font_size--xxl;
 		color: $color_main;
 		strong {
 			font-weight: normal;
@@ -2140,7 +1994,7 @@ $breakpoint_xl: 1367px;
 	}
 	.title {
 		margin: 0 0 5px;
-		font-size: $font_size--xl;;
+		font-size: $font_size--xl;
 		color: $font_color;
 		strong {
 			font-weight: normal;
@@ -2166,12 +2020,12 @@ $breakpoint_xl: 1367px;
 	}
 	.message-failure {
 		margin: 5px 0 0;
-		font-size: $font_size--xxxs;;
+		font-size: $font_size--xxxs;
 		color: $color_error;
 	}
 	.message-success {
 		margin: 5px 0 0;
-		font-size: $font_size--xxxs;;
+		font-size: $font_size--xxxs;
 		color: $color_success;
 	}
 	.current-code {
@@ -2228,7 +2082,7 @@ $breakpoint_xl: 1367px;
 		background-color: $color_main;
 		padding: 10px 30px;
 		text-align: center;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2248,7 +2102,7 @@ $breakpoint_xl: 1367px;
 		li {
 			padding: 5px 0;
 			&.name {
-				font-size: $font_size--m;;
+				font-size: $font_size--m;
 				font-weight: bold;
 			}
 		}
@@ -2297,7 +2151,7 @@ $breakpoint_xl: 1367px;
 		@extend %extend_42;
 		li {
 			margin: 20px 0;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 			label {
 				@extend %extend_43;
 			}
@@ -2312,7 +2166,7 @@ $breakpoint_xl: 1367px;
 		@extend %extend_42;
 		li {
 			margin: 20px 0;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 			label {
 				@extend %extend_43;
 			}
@@ -2344,7 +2198,7 @@ $breakpoint_xl: 1367px;
 		padding: 10px 0;
 	}
 	.button-1 {
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 	}
 }
 .order-review-data {
@@ -2502,7 +2356,7 @@ $breakpoint_xl: 1367px;
 			background-color: $color_silver_chalice_approx;
 			background-image: none;
 			padding: 10px 20px;
-			font-size: $font_size--s;;
+			font-size: $font_size--s;
 			color: $white;
 			&:hover {
 				background-color: $color_mountain_mist_approx;
@@ -2519,7 +2373,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 50px;
 		line-height: 26px;
 		text-align: center;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		color: $font_color;
 		.order-number {
 			margin: 0 0 10px;
@@ -2550,7 +2404,7 @@ $breakpoint_xl: 1367px;
 			background-color: $color_silver_chalice_approx;
 			background-image: none;
 			padding: 10px 20px;
-			font-size: $font_size--s;;
+			font-size: $font_size--s;
 			color: $white;
 			&:hover {
 				background-color: $color_mountain_mist_approx;
@@ -2574,7 +2428,7 @@ $breakpoint_xl: 1367px;
 		border: none;
 		background-color: $color_main;
 		padding: 10px 15px;
-		font-size: $font_size--xxxs;;
+		font-size: $font_size--xxxs;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2607,7 +2461,7 @@ $breakpoint_xl: 1367px;
 		background-color: $color_main;
 		padding: 10px 30px;
 		text-align: center;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2631,7 +2485,7 @@ $breakpoint_xl: 1367px;
 		background-color: $color_main;
 		padding: 10px 30px;
 		text-align: center;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2677,7 +2531,7 @@ $breakpoint_xl: 1367px;
 		padding: 0 10px;
 		text-align: center;
 		h2 {
-			font-size: $font_size--xxl;;
+			font-size: $font_size--xxl;
 			font-weight: normal;
 			color: $font_color;
 		}
@@ -2697,7 +2551,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 8px;
 		padding: 0 12px;
 		line-height: 50px;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		&:before {
 			content: "";
 			position: absolute;
@@ -2753,7 +2607,7 @@ $breakpoint_xl: 1367px;
 		}
 		li {
 			display: inline-block;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 			&.separator {
 				margin: 0 8px 0 0;
 			}
@@ -2816,7 +2670,7 @@ $breakpoint_xl: 1367px;
 		background-color: $color_main;
 		padding: 10px 30px;
 		text-align: center;
-		font-size: $font_size--s;;
+		font-size: $font_size--s;
 		color: $white;
 		text-transform: uppercase;
 		&:hover {
@@ -2829,7 +2683,7 @@ $breakpoint_xl: 1367px;
 	.title {
 		margin: 0 0 15px;
 		padding: 0 10px;
-		font-size: $font_size--xxl;;
+		font-size: $font_size--xxl;
 		color: $font_color;
 		strong {
 			font-weight: normal;
@@ -2881,7 +2735,7 @@ $breakpoint_xl: 1367px;
 }
 .comment-time {
 	margin: 0 0 15px;
-	font-size: $font_size--xxs;;
+	font-size: $font_size--xxs;
 	font-weight: bold;
 	span {
 		color: $font_color;
@@ -2889,7 +2743,7 @@ $breakpoint_xl: 1367px;
 }
 .comment-title {
 	margin: 0 0 15px;
-	font-size: $font_size--m;;
+	font-size: $font_size--m;
 	color: $font_color;
 }
 .comment-body {
@@ -2901,7 +2755,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 -1px;
 		border-bottom: 1px solid $border_color;
 		padding: 0 0 15px;
-		font-size: $font_size--title;;
+		font-size: $font_size--title;
 		font-weight: normal;
 		color: $font_color;
 		strong {
@@ -3019,7 +2873,7 @@ $breakpoint_xl: 1367px;
 		a {
 			background-color: $color_main;
 			padding: 10px 15px;
-			font-size: $font_size--xxxs;;
+			font-size: $font_size--xxxs;
 			color: $white;
 			text-transform: uppercase;
 			&:hover {
@@ -3063,7 +2917,7 @@ $breakpoint_xl: 1367px;
 	.forum-name {
 		@extend %extend_57;
 		h1 {
-			font-size: $font_size--title;;
+			font-size: $font_size--title;
 			font-weight: normal;
 		}
 	}
@@ -3133,7 +2987,7 @@ $breakpoint_xl: 1367px;
 		border-bottom: 1px solid $border_color;
 		padding: 0 10px 10px;
 		strong {
-			font-size: $font_size--title;;
+			font-size: $font_size--title;
 			font-weight: normal;
 		}
 	}
@@ -3195,7 +3049,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 15px;
 		background-color: $color_black_haze_approx;
 		padding: 10px 15px;
-		font-size: $font_size--xxs;;
+		font-size: $font_size--xxs;
 		font-weight: bold;
 		span {
 			color: $font_color;
@@ -3210,7 +3064,7 @@ $breakpoint_xl: 1367px;
 		a {
 			display: inline-block;
 			margin: 1px 5px;
-			font-size: $font_size--xs;;
+			font-size: $font_size--xs;
 		}
 		.edit-post-button {
 			padding: 10px 10px 10px 33px;
@@ -3285,7 +3139,7 @@ $breakpoint_xl: 1367px;
 	.signature {
 		border-top: 1px solid $border_color;
 		padding: 20px;
-		font-size: $font_size--xxs;;
+		font-size: $font_size--xxs;
 		font-style: italic;
 		clear: both;
 	}
@@ -3300,7 +3154,7 @@ $breakpoint_xl: 1367px;
 .profile-info-box {
 	overflow: hidden;
 	line-height: normal;
-	font-size: $font_size--xs;;
+	font-size: $font_size--xs;
 	font-family: $font_18, $font_19, $font_20;
 	color: $font_color--alt;
 	.avatar {
@@ -3321,7 +3175,7 @@ $breakpoint_xl: 1367px;
 	}
 	.title {
 		margin: 0 0 10px;
-		font-size: $font_size--xl;;
+		font-size: $font_size--xl;
 		color: $font_color;
 	}
 	.stats {
@@ -3333,7 +3187,7 @@ $breakpoint_xl: 1367px;
 }
 .latest-posts {
 	line-height: normal;
-	font-size: $font_size--xs;;
+	font-size: $font_size--xs;
 	font-family: $font_21, $font_22, $font_23;
 	color: $font_color--alt;
 	.user-posted-image {
@@ -3351,7 +3205,7 @@ $breakpoint_xl: 1367px;
 		border-top: 1px solid $border_color;
 		background: $color_black_haze_approx;
 		padding: 10px;
-		font-size: $font_size--m;;
+		font-size: $font_size--m;
 		a {
 			font-weight: bold;
 			color: $font_color;
@@ -3379,20 +3233,20 @@ $breakpoint_xl: 1367px;
 		strong {
 			display: inline-block;
 			max-width: 400px;
-			font-size: $font_size--xxxl;;
+			font-size: $font_size--xxxl;
 			font-weight: normal;
 			color: $font_color;
 			white-space: normal;
 		}
 		.topic-subject {
-			font-size: $font_size--l;;
+			font-size: $font_size--l;
 		}
 		&.reversed {
 			margin: 0;
 			label {
 				width: auto;
 				margin: 5px;
-				font-size: $font_size--xs;;
+				font-size: $font_size--xs;
 				white-space: normal;
 			}
 		}
@@ -3462,11 +3316,11 @@ $breakpoint_xl: 1367px;
 		margin: auto;
 	}
 	a {
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		color: $color_main;
 	}
 	span {
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 	}
 	.toolbar .button {
 		@extend %extend_65;
@@ -3509,7 +3363,7 @@ $breakpoint_xl: 1367px;
 			display: block;
 			border: 1px solid $border_color;
 			text-align: center;
-			font-size: $font_size--xl;;
+			font-size: $font_size--xl;
 			color: $font_color;
 			float: none !important;
 			padding: 12px 24px !important;
@@ -3652,7 +3506,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		display: inline-block;
 		width: 100% !important;
 		max-width: 400px !important;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		&:only-child {
 			width: 100% !important;
 			max-width: 100% !important;
@@ -3709,7 +3563,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 	}
 	li {
 		display: inline-block;
-		font-size: $font_size--xs;;
+		font-size: $font_size--xs;
 		&.separator {
 			margin: 0 8px 0 0;
 		}
@@ -3744,7 +3598,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .forum-topic-page .topic-name {
 	@extend %extend_57;
 	h1 {
-		font-size: $font_size--title;;
+		font-size: $font_size--title;
 		font-weight: normal;
 	}
 }
