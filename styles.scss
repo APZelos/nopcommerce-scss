@@ -100,6 +100,7 @@ $breakpoint_xl: 1367px;
 @import './product-page/_customer-entered-price.scss';
 @import './product-page/_tier-prices.scss';
 @import './product-page/_attributes.scss';
+@import './product-page/_ui-datepicker.scss';
 
 
 .link-rss {
@@ -408,87 +409,6 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-
-.ui-datepicker {
-	width: 280px;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 0 3px $color_shadow;
-	background-color: $white;
-	text-align: center;
-	border: none;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: $border_radius;
-	padding: 0;
-	font: normal $font_size--xs $font_12, $font_13, $font_14;
-	color: $font_color--alt;
-}
-.ui-datepicker-header {
-	position: relative;
-	height: 32px;
-	background-color: $color_main;
-	color: $white;
-	border: none;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: $border_radius;
-	background-image: none;
-	padding: 0 !important;
-	font-weight: normal;
-	a {
-		position: absolute;
-		z-index: 1;
-		line-height: 32px;
-		font-size: 0;
-		top: 0 !important;
-		width: 32px !important;
-		height: 32px !important;
-		border: none !important;
-		&.ui-datepicker-prev {
-			left: 0;
-			background: $url_20 center no-repeat;
-		}
-		&.ui-datepicker-next {
-			right: 0;
-			background: $url_21 center no-repeat;
-		}
-		span {
-			display: none !important;
-		}
-	}
-}
-.ui-datepicker-title {
-	position: relative;
-	z-index: 0;
-	font-weight: bold;
-	text-transform: uppercase;
-	line-height: 32px !important;
-}
-.ui-datepicker-calendar {
-	margin: 0 !important;
-	font-size: $font_size--xs !important;
-	th {
-		background-color: $color_gallery_approx;
-		@extend %extend_33;
-		span {
-			@extend %extend_34;
-		}
-	}
-	td {
-		@extend %extend_33;
-		a {
-			@extend %extend_34;
-			border: none !important;
-			background: none !important;
-			padding: 0;
-			text-align: center;
-			color: $font_color !important;
-		}
-	}
-	.ui-state-active {
-		outline: 2px solid $color_main;
-		font-weight: bold;
-		color: $color_main !important;
-	}
-}
 
 .tooltip-container {
 	position: absolute;

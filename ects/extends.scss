@@ -49,23 +49,6 @@
 }
 
 //original selectors
-//.ui-datepicker-calendar th, .ui-datepicker-calendar td
-%extend_33 {
-	width: 14.285%;
-	border: 1px solid $border_color;
-	padding: 0;
-}
-
-//original selectors
-//.ui-datepicker-calendar th span, .ui-datepicker-calendar td a
-%extend_34 {
-	display: block;
-	min-height: 32px;
-	line-height: 32px;
-	color: $font_color;
-}
-
-//original selectors
 //.product-review-item .review-info a, .product-review-helpfulness .vote
 %extend_35 {
 	display: inline-block;
