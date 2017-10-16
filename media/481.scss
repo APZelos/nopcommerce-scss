@@ -1,22 +1,5 @@
 
 @media all and(min-width: 481px) {
-	.item-box {
-		width: 49%;
-		margin: 0 0.5% 50px;
-		.product-rating-box {
-			margin: 0 0 15px;
-		}
-		.prices {
-			min-height: 40px;
-		}
-		.product-title {
-			min-height: 42px;
-			margin: 0 0 5px;
-		}
-		&:nth-child(2n + 1) {
-			clear: both;
-		}
-	}
 	.forums-header {
 		background-color: $color_alabaster_approx;
 		padding: 30px 20px 20px;
