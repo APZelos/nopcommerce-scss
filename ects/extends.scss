@@ -49,16 +49,6 @@
 }
 
 //original selectors
-//.attributes dt, .attribute-label
-%extend_32 {
-	display: block;
-	margin: 0 0 5px;
-	white-space: nowrap;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
 //.ui-datepicker-calendar th, .ui-datepicker-calendar td
 %extend_33 {
 	width: 14.285%;

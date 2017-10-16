@@ -113,10 +113,6 @@
 				}
 			}
 		}
-		.attributes {
-			margin: 5px 0;
-			color: $font_color;
-		}
 		.totals {
 			margin: 0 0 12px;
 			font-size: $font_size--xs;;
@@ -362,9 +358,6 @@
 		label {
 			display: none;
 		}
-	}
-	.attribute-squares li {
-		margin: 0 10px 10px 0;
 	}
 	.product-review-item .review-title {
 		max-width: 850px;
