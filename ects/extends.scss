@@ -1,15 +1,5 @@
 
 //original selectors
-//.overview .qty-input, .variant-overview .qty-input
-%extend_29 {
-	width: 45px;
-	height: 43px;
-	padding: 0 12px;
-	text-align: center;
-	font-size: $font_size--s;
-	color: $font_color;
-}
-//original selectors
 //.forum-edit-page .buttons input, .move-topic-page .buttons input, .private-messages .buttons input
 %extend_66 {
 	min-width: 140px;
@@ -56,77 +46,6 @@
 	background-color: $white;
 	padding: 20px;
 	color: $font_color;
-}
-
-//original selectors
-//.overview .button-2, .variant-overview .button-2
-%extend_24 {
-	display: block;
-	width: 100%;
-	border: none;
-	background-color: $color_gray_nurse_approx;
-	background-position: left center;
-	background-repeat: no-repeat;
-	padding: 12px 15px 12px 40px;
-	text-align: left;
-	font-size: $font_size--xs;
-	color: $font_color;
-}
-
-//original selectors
-//.overview .free-shipping, .variant-overview .free-shipping
-%extend_25 {
-	display: none;
-	margin: 10px 0;
-	background: $url_19 left center no-repeat;
-	padding: 2px 0 2px 28px;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
-//.overview .min-qty-notification, .variant-overview .min-qty-notification
-%extend_26 {
-	margin: 10px 0;
-	font-style: italic;
-	color: $font_color;
-}
-
-//original selectors
-//.overview .old-product-price, .variant-overview .old-product-price, .overview .non-discounted-price, .variant-overview .non-discounted-price
-%extend_27 {
-	font-size: $font_size--xs;
-	color: $color_mountain_mist_approx;
-	text-decoration: line-through;
-}
-
-//original selectors
-//.overview .product-price, .variant-overview .product-price
-%extend_28 {
-	font-size: $font_size--xxl;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
-//.overview .qty-dropdown, .variant-overview .qty-dropdown
-%extend_30 {
-	height: 43px;
-	padding: 0 12px;
-	font-size: $font_size--s;
-	color: $font_color;
-}
-
-//original selectors
-//.overview .add-to-cart-button, .variant-overview .add-to-cart-button
-%extend_31 {
-	height: 43px;
-	border: none;
-	background-color: $color_main;
-	padding: 0 24px;
-	font-size: $font_size--s;
-	color: $white;
-	text-transform: uppercase;
 }
 
 //original selectors
