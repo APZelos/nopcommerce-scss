@@ -49,15 +49,6 @@
 }
 
 //original selectors
-//.product-review-item .review-info a, .product-review-helpfulness .vote
-%extend_35 {
-	display: inline-block;
-	padding: 0 5px;
-	color: $color_main;
-	cursor: pointer;
-}
-
-//original selectors
 //.contact-page .button-1, .email-a-friend-page .button-1, .apply-vendor-page .button-1
 %extend_36 {
 	min-width: 140px;
