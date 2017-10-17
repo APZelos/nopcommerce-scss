@@ -64,25 +64,31 @@ $breakpoint_xl: 1367px;
 @import './globals/_center.scss';
 @import './globals/_sides.scss';
 @import './globals/_page.scss';
+
 @import './_forms.scss';
+
 @import './notifications_popups/_bar-notification.scss';
 @import './notifications_popups/_ui-dialog.scss';
 @import './notifications_popups/_eu-cookie-bar-notification.scss';
 @import './notifications_popups/_noscript.scss';
 @import './notifications_popups/_ajax-loading-block-window.scss';
 @import './notifications_popups/_please-wait.scss';
+
 @import './headers/_admin-header-links.scss';
 @import './headers/_header.scss';
 @import './headers/_language-list.scss';
 @import './headers/_topcartlink.scss';
 @import './headers/_search-box.scss';
 @import './headers/_ui-autocomplete.scss';
+
 @import './footer/_footer.scss';
 @import './footer/_follow-us.scss';
 @import './footer/_newsletter.scss';
 @import './footer/_theme-selector.scss';
+
 @import './side-column/_block.scss';
 @import './side-column/_polls.scss';
+
 @import './category-page/_breadcrumb.scss';
 @import './category-page/_descriptions.scss';
 @import './category-page/_contact-vendor.scss';
@@ -91,6 +97,7 @@ $breakpoint_xl: 1367px;
 @import './category-page/_item-box.scss';
 @import './category-page/_grids.scss';
 @import './category-page/_pager.scss';
+
 @import './product-page/_product-details-page.scss';
 @import './product-page/_product-essential.scss';
 @import './product-page/_gallery.scss';
@@ -103,6 +110,8 @@ $breakpoint_xl: 1367px;
 @import './product-page/_ui-datepicker.scss';
 @import './product-page/_tooltip-container.scss';
 @import './product-page/_giftcard.scss';
+
+@import './product-review/_product-reviews-page.scss';
 
 
 .link-rss {
@@ -411,31 +420,7 @@ $breakpoint_xl: 1367px;
 	}
 }
 
-.product-reviews-page {
-	.title {
-		margin: 0 0 20px;
-		font-size: $font_size--xxl;
-		color: $font_color;
-		strong {
-			font-weight: normal;
-		}
-	}
-	.result {
-		margin: 0 0 20px;
-	}
-	.message-error {
-		margin: 0 0 20px;
-	}
-	h1 a {
-		color: $color_main;
-		&:before {
-			content: "''";
-		}
-		&:after {
-			content: "''";
-		}
-	}
-}
+
 .write-review {
 	margin: 0 0 60px;
 	.fieldset {
@@ -549,6 +534,7 @@ $breakpoint_xl: 1367px;
 		margin: 0 0 0 10px;
 	}
 }
+
 .wishlist-page {
 	.page-title {
 		margin: 0 0 -1px;
