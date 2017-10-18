@@ -126,6 +126,8 @@ $breakpoint_xl: 1367px;
 @import '/topics/_enter-password-title.scss';
 @import '/topics/_enter-password-form.scss';
 
+@import '/_contact-page.scss';
+
 
 .link-rss {
 	display: none;
@@ -434,86 +436,6 @@ $breakpoint_xl: 1367px;
 }
 
 
-.contact-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.result {
-		margin: 20px 0;
-	}
-	.message-error {
-		margin: 20px 0;
-	}
-	.button-1 {
-		@extend %extend_36;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.topic-block {
-		margin: 25px 0;
-	}
-}
-.email-a-friend-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.result {
-		margin: 20px 0;
-	}
-	.message-error {
-		margin: 20px 0;
-	}
-	.button-1 {
-		@extend %extend_36;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.title {
-		margin: 25px 0;
-		h2 {
-			font-weight: normal;
-			color: $color_main;
-		}
-	}
-}
-.apply-vendor-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.result {
-		margin: 20px 0;
-	}
-	.message-error {
-		margin: 20px 0;
-	}
-	.button-1 {
-		@extend %extend_36;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.title {
-		margin: 25px 0;
-	}
-	.accept-terms-of-service {
-		margin: 0 0 20px;
-		text-align: center;
-		> * {
-			display: inline-block;
-			line-height: 32px;
-		}
-		span {
-			color: $color_main;
-			cursor: pointer;
-		}
-		a {
-			color: $color_main;
-			cursor: pointer;
-		}
-	}
-}
 .gender {
 	display: inline-block;
 	span {
