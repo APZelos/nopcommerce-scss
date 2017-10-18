@@ -124,6 +124,7 @@ $breakpoint_xl: 1367px;
 @import '/topics/_topic-block-body.scss';
 @import '/topics/_topic-password.scss';
 @import '/topics/_enter-password-title.scss';
+@import '/topics/_enter-password-form.scss';
 
 
 .link-rss {
@@ -429,36 +430,6 @@ $breakpoint_xl: 1367px;
 	}
 	.topic-details {
 		text-align: left;
-	}
-}
-
-
-
-
-
-
-.enter-password-form {
-	display: inline-block;
-	overflow: hidden;
-	input[type="password"] {
-		float: left;
-		width: 200px;
-		height: 40px;
-		margin: 0 -1px 0 0;
-	}
-	input[type="submit"] {
-		float: left;
-		width: auto;
-		min-width: 86px;
-		height: 40px;
-		border: none;
-		background-color: $color_main;
-		padding: 0 15px;
-		color: $white;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
 	}
 }
 
