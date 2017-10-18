@@ -120,6 +120,8 @@ $breakpoint_xl: 1367px;
 @import '/wishlist-compare/_compare-products-page.scss';
 @import '/wishlist-compare/_compare-products-table.scss';
 
+@import '/topics/_topic-block-title.scss';
+
 
 .link-rss {
 	display: none;
@@ -428,16 +430,7 @@ $breakpoint_xl: 1367px;
 }
 
 
-.topic-block-title {
-	min-height: 50px;
-	margin: 0 0 25px;
-	border-bottom: 1px solid $border_color;
-	padding: 0 0 15px;
-	h2 {
-		font-size: $font_size--title;
-		font-weight: normal;
-	}
-}
+
 .topic-block-body {
 	text-align: justify;
 	line-height: 24px;
@@ -474,6 +467,8 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
 .contact-page {
 	.page-title {
 		margin: 0 0 -1px;
