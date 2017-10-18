@@ -115,6 +115,7 @@ $breakpoint_xl: 1367px;
 @import './product-review/_write-review.scss';
 @import './product-review/_product-review.scss';
 @import '/wishlist-compare/_wishlist-page.scss';
+@import '/wishlist-compare/_wishlist-content.scss';
 
 
 .link-rss {
@@ -424,63 +425,6 @@ $breakpoint_xl: 1367px;
 }
 
 
-.wishlist-content {
-	margin: 0 0 20px;
-	.message-error {
-		margin: 20px 0;
-	}
-	.table-wrapper {
-		margin: 0 0 30px;
-	}
-	.product-content {
-		min-width: 300px;
-		text-align: left;
-	}
-	.tax-shipping-info {
-		margin: 0 0 20px;
-		text-align: center;
-		a {
-			color: $color_main;
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
-	.buttons {
-		font-size: 0;
-	}
-	.button-2 {
-		display: block;
-		width: 250px;
-		margin: 0 auto 3px;
-		border: none;
-		padding: 10px 25px;
-		text-align: center;
-		line-height: 20px;
-		font-size: $font_size--s;
-		color: $white;
-	}
-	.update-wishlist-button {
-		background-color: $color_main;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.wishlist-add-to-cart-button {
-		background-color: $color_main;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.email-a-friend-wishlist-button {
-		background-color: $color_silver_chalice_approx;
-		&:hover {
-			background-color: $color_mountain_mist_approx;
-		}
-	}
-}
 .compare-products-page {
 	position: relative;
 	overflow: hidden;
