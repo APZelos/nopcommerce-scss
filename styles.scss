@@ -436,6 +436,7 @@ $breakpoint_xl: 1367px;
 }
 
 
+/********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
 .gender {
 	display: inline-block;
 	span {
@@ -873,6 +874,9 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
+/********** SHOPPING CART **********/
 .order-progress {
 	margin: 0 0 50px;
 	background-color: $color_black_haze_approx;
@@ -1177,6 +1181,9 @@ $breakpoint_xl: 1367px;
 .remove-gift-card-button {
 	@extend %extend_41;
 }
+
+
+/********** CHECKOUT **********/
 .checkout-page {
 	.section {
 		margin: 0 0 30px;
@@ -1461,6 +1468,9 @@ $breakpoint_xl: 1367px;
 		text-align: left;
 	}
 }
+
+
+/****** ORDER DETAILS & SHIPPING DETAILS ******/
 .order-details-page {
 	.page-title {
 		border-bottom: none;
@@ -1590,6 +1600,9 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
+/****** SEARCH & SITEMAP ******/
 .search-input {
 	.fieldset {
 		margin: 0 0 30px;
@@ -1693,6 +1706,9 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
+/****** BLOG & NEWS ******/
 .block-blog-archive {
 	.number {
 		display: block;
@@ -1894,6 +1910,9 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
+/*** FORUM & PROFILE ***/
 .forums-main-page {
 	.topic-block {
 		margin: 0 0 35px;
@@ -2450,6 +2469,8 @@ $breakpoint_xl: 1367px;
 		}
 	}
 }
+
+
 .ui-tabs {
 	border: none;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -2498,6 +2519,7 @@ $breakpoint_xl: 1367px;
 .ui-tabs-panel {
 	padding: 0 !important;
 }
+
 .private-messages-page {
 	.table-wrapper {
 		margin: 0 0 30px;
@@ -2571,6 +2593,7 @@ $breakpoint_xl: 1367px;
 		text-transform: capitalize !important;
 	}
 }
+
 pre {
 	white-space: normal;
 	word-wrap: break-word;
@@ -2579,6 +2602,7 @@ pre {
 input[type="file"] > input[type="button"]::-moz-focus-inner {
 	@extend %moz-focus-inner;
 }
+
 .footer-tax-shipping a {
 	font-weight: bold;
 	color: $color_main;
@@ -2586,35 +2610,43 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		text-decoration: underline;
 	}
 }
+
 .item-grid:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
 .product-review-links a {
 	text-decoration: underline;
 	&:hover {
 		color: $color_main;
 	}
 }
+
 .home-page .topic-block {
 	margin: 0 0 50px;
 }
+
 .popup-window .topic-page {
 	padding: 15px;
 }
+
 .not-found-page p {
 	margin: 30px 15px;
 }
+
 .downloadable-products-page table td {
 	color: $font_color;
 }
+
 .reward-points-history table td {
 	color: $font_color;
 	&:first-child {
 		min-width: 120px;
 	}
 }
+
 .payment-info .info {
 	padding: 30px 15px;
 	color: $font_color;
@@ -2649,6 +2681,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		text-align: center;
 	}
 }
+
 .order-completed .details {
 	margin: 0 0 30px;
 	padding: 30px 15px;
@@ -2668,12 +2701,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		}
 	}
 }
+
 .search-page .page-title {
 	margin: 0 0 -1px;
 }
+
 .news-list-page .page-title {
 	margin: 0;
 }
+
 .blogpost-page .tags {
 	@extend %extend_50;
 	label {
@@ -2697,6 +2733,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		}
 	}
 }
+
 .blog-posts .buttons {
 	margin: 0;
 	padding: 0 10px;
@@ -2716,6 +2753,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		}
 	}
 }
+
 .forum-topic-page .topic-name {
 	@extend %extend_57;
 	h1 {
@@ -2723,6 +2761,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		font-weight: normal;
 	}
 }
+
 .private-messages .buttons {
 	input {
 		@extend %extend_66;
