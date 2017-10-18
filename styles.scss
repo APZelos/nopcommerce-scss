@@ -121,6 +121,8 @@ $breakpoint_xl: 1367px;
 @import '/wishlist-compare/_compare-products-table.scss';
 
 @import '/topics/_topic-block-title.scss';
+@import '/topics/_topic-block-body.scss';
+@import '/topics/_topic-password.scss';
 
 
 .link-rss {
@@ -431,14 +433,8 @@ $breakpoint_xl: 1367px;
 
 
 
-.topic-block-body {
-	text-align: justify;
-	line-height: 24px;
-	font-size: $font_size--m;
-}
-.topic-password {
-	text-align: center;
-}
+
+
 .enter-password-title {
 	margin: 0 0 20px;
 	color: $font_color;
