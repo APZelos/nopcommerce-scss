@@ -123,6 +123,7 @@ $breakpoint_xl: 1367px;
 @import '/topics/_topic-block-title.scss';
 @import '/topics/_topic-block-body.scss';
 @import '/topics/_topic-password.scss';
+@import '/topics/_enter-password-title.scss';
 
 
 .link-rss {
@@ -435,10 +436,7 @@ $breakpoint_xl: 1367px;
 
 
 
-.enter-password-title {
-	margin: 0 0 20px;
-	color: $font_color;
-}
+
 .enter-password-form {
 	display: inline-block;
 	overflow: hidden;
