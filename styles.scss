@@ -151,6 +151,7 @@ $breakpoint_xl: 1367px;
 @import '/shopping-cart/_cart-footer.scss';
 @import '/shopping-cart/_cart-total.scss';
 @import '/shopping-cart/_min-amount-warning.scss';
+@import '/shopping-cart/_terms-of-service.scss';
 
 
 .link-rss {
@@ -460,17 +461,6 @@ $breakpoint_xl: 1367px;
 }
 
 /********** SHOPPING CART **********/
-.terms-of-service {
-	margin: 0 0 20px;
-	padding: 0 30px;
-	label {
-		cursor: pointer;
-	}
-	a {
-		margin: 0 0 0 3px;
-		color: $color_main;
-	}
-}
 .cart-collaterals {
 	width: 350px;
 	max-width: 100%;
