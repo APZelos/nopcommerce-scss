@@ -444,18 +444,7 @@ $breakpoint_xl: 1367px;
 
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
-.external-auth-errors {
-	color: $color_error;
-}
-.external-auth-association {
-	color: $font_color;
-	a {
-		color: $color_main;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-}
+
 .add-more-external-records {
 	text-align: center;
 	a {

@@ -15,3 +15,16 @@
 		padding: 30px;
 	}
 }
+.external-auth-errors {
+	color: $color_error;
+}
+
+.external-auth-association {
+	color: $font_color;
+	a {
+		color: $color_main;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
