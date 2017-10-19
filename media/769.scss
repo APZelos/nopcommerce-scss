@@ -1,30 +1,5 @@
 
 @media all and(min-width: 769px) {
-	.order-details-page {
-		.selected-checkout-attributes {
-			padding: 0 10px;
-		}
-		.tax-shipping-info {
-			text-align: right;
-		}
-		.totals {
-			float: right;
-			clear: both;
-		}
-		.data-table tr {
-			width: 31.33333%;
-			margin: 40px 1% 0;
-			&:nth-child(2n + 1) {
-				clear: none;
-			}
-			&:nth-child(3n + 1) {
-				clear: both;
-			}
-		}
-		.section.options {
-			text-align: right;
-		}
-	}
 	.variant-picture {
 		float: left;
 		+ .variant-overview {
