@@ -135,6 +135,7 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_registration-login-account-pages.scss';
 @import '/registration-login-acount_pages/_external-authentication.scss';
 @import '/registration-login-acount_pages/_add-more-external-records.scss';
+@import '/registration-login-acount_pages/_adress_list-order_list-pages.scss';
 
 
 .link-rss {
@@ -445,58 +446,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
-.address-list-page {
-	.info {
-		@extend %extend_39;
-		.name {
-			font-size: $font_size--m;
-			font-weight: bold;
-		}
-	}
-	.button-2 {
-		@extend %extend_40;
-		&:hover {
-			color: $color_main;
-		}
-	}
-	.add-button {
-		margin: 0 0 20px;
-		text-align: center;
-	}
-}
-.order-list-page {
-	.info {
-		@extend %extend_39;
-		.name {
-			font-size: $font_size--m;
-			font-weight: bold;
-		}
-	}
-	.button-2 {
-		@extend %extend_40;
-		&:hover {
-			color: $color_main;
-		}
-	}
-}
-.edit-address-button {
-	background: $url_23 left center no-repeat;
-}
-.delete-address-button {
-	background: $url_22 left center no-repeat;
-}
-.cancel-recurring-order-button {
-	background: $url_22 left center no-repeat;
-}
-.retry-recurring-order-button {
-	background: $url_24 left center no-repeat;
-}
-.return-items-button {
-	background: $url_25 left center no-repeat;
-}
-.order-details-button {
-	background: $url_26 left center no-repeat;
-}
 .address-edit-page {
 	.page-title {
 		margin: 0 0 -1px;

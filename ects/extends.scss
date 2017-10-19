@@ -49,28 +49,6 @@
 }
 
 //original selectors
-//.address-list-page .info, .order-list-page .info
-%extend_39 {
-	margin: 0 0 10px;
-	border-top: 1px solid $color_mercury_approx;
-	background-color: $color_alabaster_approx;
-	padding: 20px;
-	line-height: 26px;
-	color: $font_color;
-}
-
-//original selectors
-//.address-list-page .button-2, .order-list-page .button-2
-%extend_40 {
-	display: inline-block;
-	margin: 0 0 0 10px;
-	border: none;
-	padding: 0 0 0 18px;
-	font-size: $font_size--xxxs;
-	color: $font_color;
-}
-
-//original selectors
 //.remove-discount-button, .remove-gift-card-button
 %extend_41 {
 	width: 16px;
