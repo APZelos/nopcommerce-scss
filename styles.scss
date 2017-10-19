@@ -157,6 +157,7 @@ $breakpoint_xl: 1367px;
 
 @import '/checkout/_checkout-page.scss';
 @import '/checkout/_enter-address.scss';
+@import '/checkout/_select-pickup-point.scss';
 
 
 .link-rss {
@@ -467,9 +468,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** CHECKOUT **********/
-.select-pickup-point {
-	text-align: center;
-}
 .shipping-method {
 	.method-list {
 		@extend %extend_42;
