@@ -148,6 +148,7 @@ $breakpoint_xl: 1367px;
 @import '/shopping-cart/_shopping-cart-page.scss';
 @import '/shopping-cart/_checkout-attributes.scss';
 @import '/shopping-cart/_selected-checkout-attributes.scss';
+@import '/shopping-cart/_cart-footer.scss';
 
 
 .link-rss {
@@ -457,48 +458,6 @@ $breakpoint_xl: 1367px;
 }
 
 /********** SHOPPING CART **********/
-.cart-footer {
-	margin: 0 0 50px;
-	border-top: 1px solid $border_color;
-	&:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-	.totals {
-		width: 350px;
-		max-width: 100%;
-		margin: 0 auto 50px;
-		background-color: $color_alabaster_approx;
-		padding: 10px;
-		color: $font_color;
-	}
-	.total-info {
-		margin: 0 0 20px;
-		border-bottom: 1px solid $border_color;
-		padding: 5px 30px 15px;
-	}
-	.checkout-buttons {
-		padding: 0 10px;
-	}
-	.checkout-button {
-		display: inline-block;
-		min-width: 160px;
-		border: none;
-		background-color: $color_main;
-		padding: 10px 20px;
-		font-size: $font_size--m;
-		color: $white;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	.addon-buttons {
-		margin: 20px 0 0;
-		padding: 0 10px;
-	}
-}
 .cart-total {
 	td {
 		width: 50%;

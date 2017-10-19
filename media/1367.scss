@@ -1,35 +1,5 @@
 
 @media all and(min-width: 1367px) {
-	.cart-footer {
-		.totals {
-			width: 395px;
-			margin: 0;
-		}
-		.cart-collaterals {
-			width: 760px;
-			margin: 0;
-			.deals {
-				float: left;
-				width: 360px;
-			}
-			.shipping {
-				float: right;
-				width: 360px;
-			}
-		}
-		.estimate-shipping .inputs {
-			label {
-				display: inline-block;
-				width: 35%;
-			}
-			input {
-				width: 65%;
-			}
-			select {
-				width: 65%;
-			}
-		}
-	}
 	.inputs label {
 		width: 375px;
 	}

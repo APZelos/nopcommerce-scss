@@ -43,42 +43,6 @@
 			padding: 0 10px;
 		}
 	}
-	.cart-footer {
-		.totals {
-			float: right;
-			width: 45%;
-			margin: 0 2.5%;
-		}
-		.terms-of-service {
-			text-align: left;
-		}
-		.checkout-buttons {
-			text-align: right;
-		}
-		.addon-buttons {
-			text-align: right;
-		}
-		.cart-collaterals {
-			float: left;
-			width: 45%;
-			margin: 0 2.5%;
-			div {
-				text-align: left;
-			}
-			label {
-				text-align: left;
-			}
-		}
-		.estimate-shipping {
-			label {
-				display: block;
-				margin: 0 0 10px;
-			}
-			.buttons {
-				text-align: right;
-			}
-		}
-	}
 	.checkout-page {
 		.selected-checkout-attributes {
 			float: right;
