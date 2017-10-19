@@ -154,31 +154,6 @@
 			text-align: left;
 		}
 	}
-	.news-list-homepage {
-		.news-items {
-			overflow: hidden;
-			text-align: left;
-		}
-		.news-item {
-			float: left;
-			width: 31.33333%;
-			margin: 0 1% 30px;
-			&:only-child {
-				float: none;
-				width: auto;
-				margin: 0 0 30px;
-			}
-			&:nth-child(3n + 1) {
-				clear: both;
-			}
-		}
-		.news-head {
-			text-align: center;
-		}
-		.news-body {
-			text-align: justify;
-		}
-	}
 	.forum-breadcrumb {
 		margin: -30px 0 30px;
 	}
