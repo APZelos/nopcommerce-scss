@@ -172,6 +172,7 @@ $breakpoint_xl: 1367px;
 @import '/search_sitemap/_sitemap-page.scss';
 
 @import '/blog_news/_block-blog-archive.scss';
+@import '/blog_news/_blog_blogposts-pages.scss';
 
 
 .link-rss {
@@ -482,42 +483,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** BLOG & NEWS ******/
-.blog-page {
-	.page-title {
-		margin: 0;
-	}
-	.post {
-		margin: 0 0 30px;
-		&:after {
-			content: "";
-			display: block;
-			clear: both;
-		}
-	}
-	.tags {
-		@extend %extend_50;
-		label {
-			@extend %extend_51;
-		}
-		ul {
-			@extend %extend_52;
-		}
-		li {
-			display: inline-block;
-			font-size: $font_size--xs;
-			&.separator {
-				margin: 0 8px 0 0;
-			}
-		}
-		a {
-			display: block;
-			color: $color_main;
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
-}
 .news-items {
 	.news-item {
 		margin: 0 0 30px;
@@ -1468,30 +1433,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .news-list-page .page-title {
 	margin: 0;
-}
-
-.blogpost-page .tags {
-	@extend %extend_50;
-	label {
-		@extend %extend_51;
-	}
-	ul {
-		@extend %extend_52;
-	}
-	li {
-		display: inline-block;
-		font-size: $font_size--xs;
-		&.separator {
-			margin: 0 8px 0 0;
-		}
-	}
-	a {
-		display: block;
-		color: $color_main;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
 }
 
 .blog-posts .buttons {

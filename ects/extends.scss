@@ -79,31 +79,6 @@
 }
 
 //original selectors
-//.blog-page .tags, .blogpost-page .tags
-%extend_50 {
-	margin: 0 0 15px;
-	overflow: hidden;
-	padding: 0 10px;
-}
-
-//original selectors
-//.blog-page .tags label, .blogpost-page .tags label
-%extend_51 {
-	display: inline-block;
-	margin: 0 3px 3px 0;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
-//.blog-page .tags ul, .blogpost-page .tags ul
-%extend_52 {
-	display: inline-block;
-	margin: 0 0 3px 3px;
-	font-size: 0;
-}
-
-//original selectors
 //.blog-posts .buttons .read-more, .news-items .buttons .read-more
 %extend_53 {
 	display: inline-block;
