@@ -156,6 +156,7 @@ $breakpoint_xl: 1367px;
 @import '/shopping-cart/_remove-buttons.scss';
 
 @import '/checkout/_checkout-page.scss';
+@import '/checkout/_enter-address.scss';
 
 
 .link-rss {
@@ -466,17 +467,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** CHECKOUT **********/
-.enter-address {
-	.message-error {
-		margin: 20px 0;
-	}
-	.edit-address {
-		background-color: $color_alabaster_approx;
-		border-top: 1px solid $color_mercury_approx;
-		margin: 0 0 30px;
-		padding: 30px 15px;
-	}
-}
 .select-pickup-point {
 	text-align: center;
 }
