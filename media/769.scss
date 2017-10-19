@@ -249,12 +249,4 @@
 	.shipment-details-page .tracking-number .tracking-url {
 		color: $color_main;
 	}
-	.comment-list .comment {
-		display: table;
-		width: 100%;
-		margin: 0;
-		&:last-child {
-			border-bottom: 1px solid $border_color;
-		}
-	}
 }

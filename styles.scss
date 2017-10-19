@@ -177,6 +177,7 @@ $breakpoint_xl: 1367px;
 @import '/blog_news/_post_news-titles.scss';
 @import '/blog_news/_post_news-dates.scss';
 @import '/blog_news/_new-comment.scss';
+@import '/blog_news/_comment-list.scss';
 
 
 .link-rss {
@@ -487,27 +488,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** BLOG & NEWS ******/
-.comment-list {
-	margin: 0 0 100px;
-	.title {
-		margin: 0 0 15px;
-		padding: 0 10px;
-		font-size: $font_size--xxl;
-		color: $font_color;
-		strong {
-			font-weight: normal;
-		}
-	}
-	.comment {
-		margin: 0 0 40px;
-		border-top: 1px solid $border_color;
-		&:after {
-			content: "";
-			display: block;
-			clear: both;
-		}
-	}
-}
 .comment-info {
 	width: 150px;
 	margin: 20px auto;
