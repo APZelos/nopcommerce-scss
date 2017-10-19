@@ -129,6 +129,7 @@ $breakpoint_xl: 1367px;
 @import '/_contact-page.scss';
 
 @import '/registration-login-acount_pages/_gender.scss';
+@import '/registration-login-acount_pages/_date-of-birth.scss';
 
 
 .link-rss {
@@ -440,18 +441,7 @@ $breakpoint_xl: 1367px;
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
 
-.date-of-birth {
-	.date-picker-wrapper {
-		display: inline;
-	}
-	select {
-		width: 31%;
-		max-width: 126px;
-		+ select {
-			margin: 0 0 0 10px;
-		}
-	}
-}
+
 #check-availability-button {
 	margin: 10px 0 0;
 	border: none;
