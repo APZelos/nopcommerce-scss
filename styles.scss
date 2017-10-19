@@ -166,6 +166,8 @@ $breakpoint_xl: 1367px;
 @import '/order-details/_order-details-page.scss';
 @import '/order-details/_user-agreement-page.scss';
 
+@import '/search_sitemap/_search-input .scss';
+
 
 .link-rss {
 	display: none;
@@ -475,34 +477,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** SEARCH & SITEMAP ******/
-.search-input {
-	.fieldset {
-		margin: 0 0 30px;
-	}
-	.form-fields {
-		padding: 30px 15px 10px;
-	}
-	.buttons {
-		text-align: center;
-	}
-	.button-1 {
-		min-width: 140px;
-		border: none;
-		background-color: $color_main;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: $font_size--s;
-		color: $white;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
-	input + label {
-		display: inline;
-		margin: 0 0 0 5px;
-	}
-}
 .advanced-search {
 	margin: 30px 0 0;
 	.price-range {
