@@ -131,6 +131,7 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_gender.scss';
 @import '/registration-login-acount_pages/_date-of-birth.scss';
 @import '/registration-login-acount_pages/_check-availability-button.scss';
+@import '/registration-login-acount_pages/_accept-privacy-policy.scss';
 
 
 .link-rss {
@@ -443,22 +444,7 @@ $breakpoint_xl: 1367px;
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
 
 
-.accept-privacy-policy {
-	margin: 0 0 20px;
-	text-align: center;
-	> * {
-		display: inline-block;
-		line-height: 32px;
-	}
-	span {
-		color: $color_main;
-		cursor: pointer;
-	}
-	a {
-		color: $color_main;
-		cursor: pointer;
-	}
-}
+
 .registration-page {
 	.button-1 {
 		@extend %extend_37;
