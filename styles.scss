@@ -159,6 +159,7 @@ $breakpoint_xl: 1367px;
 @import '/checkout/_enter-address.scss';
 @import '/checkout/_select-pickup-point.scss';
 @import '/checkout/_methods.scss';
+@import '/checkout/_confirm-order.scss';
 
 
 .link-rss {
@@ -469,14 +470,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** CHECKOUT **********/
-.confirm-order {
-	.buttons {
-		padding: 10px 0;
-	}
-	.button-1 {
-		font-size: $font_size--m;
-	}
-}
 .order-review-data {
 	> div {
 		@extend %extend_44;
