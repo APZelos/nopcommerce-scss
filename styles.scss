@@ -181,6 +181,7 @@ $breakpoint_xl: 1367px;
 @import '/blog_news/_comment-info.scss';
 @import '/blog_news/_comment-time .scss';
 @import '/blog_news/_comment-title.scss';
+@import '/blog_news/_comment-body.scss';
 
 
 .link-rss {
@@ -491,9 +492,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** BLOG & NEWS ******/
-.comment-body {
-	line-height: 22px;
-}
 .news-list-homepage {
 	margin: 0 0 75px;
 	.title {
