@@ -153,6 +153,7 @@ $breakpoint_xl: 1367px;
 @import '/shopping-cart/_min-amount-warning.scss';
 @import '/shopping-cart/_terms-of-service.scss';
 @import '/shopping-cart/_cart-collaterals.scss';
+@import '/shopping-cart/_remove-buttons.scss';
 
 
 .link-rss {
@@ -462,12 +463,7 @@ $breakpoint_xl: 1367px;
 }
 
 /********** SHOPPING CART **********/
-.remove-discount-button {
-	@extend %extend_41;
-}
-.remove-gift-card-button {
-	@extend %extend_41;
-}
+
 
 
 /********** CHECKOUT **********/

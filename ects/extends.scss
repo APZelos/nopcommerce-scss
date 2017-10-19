@@ -49,16 +49,6 @@
 }
 
 //original selectors
-//.remove-discount-button, .remove-gift-card-button
-%extend_41 {
-	width: 16px;
-	height: 16px;
-	border: 1px solid $color_mountain_mist_approx;
-	background: $white $url_1 center no-repeat;
-	cursor: pointer;
-}
-
-//original selectors
 //.shipping-method .method-list, .payment-method .method-list
 %extend_42 {
 	margin: 0 auto 30px;
