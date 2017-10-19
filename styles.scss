@@ -164,6 +164,7 @@ $breakpoint_xl: 1367px;
 @import '/checkout/_opc.scss';
 
 @import '/order-details/_order-details-page.scss';
+@import '/order-details/_user-agreement-page.scss';
 
 
 .link-rss {
@@ -469,29 +470,6 @@ $breakpoint_xl: 1367px;
 	}
 	.topic-details {
 		text-align: left;
-	}
-}
-
-
-/****** ORDER DETAILS & SHIPPING DETAILS ******/
-.user-agreement-page {
-	.terms-of-agreement {
-		margin: 0 0 20px;
-		padding: 20px;
-		text-align: center;
-	}
-	.button-1 {
-		min-width: 140px;
-		border: none;
-		background-color: $color_main;
-		padding: 10px 30px;
-		text-align: center;
-		font-size: $font_size--s;
-		color: $white;
-		text-transform: uppercase;
-		&:hover {
-			background-color: $color_main--active;
-		}
 	}
 }
 
