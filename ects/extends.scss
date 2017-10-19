@@ -49,17 +49,6 @@
 }
 
 //original selectors
-//.post-date, .news-date
-%extend_48 {
-	display: block;
-	margin: 0 0 15px;
-	background-color: $color_black_haze_approx;
-	padding: 10px;
-	font-style: italic;
-	color: $font_color;
-}
-
-//original selectors
 //.post-body, .news-body
 %extend_49 {
 	margin: 0 0 20px;
