@@ -130,6 +130,7 @@ $breakpoint_xl: 1367px;
 
 @import '/registration-login-acount_pages/_gender.scss';
 @import '/registration-login-acount_pages/_date-of-birth.scss';
+@import '/registration-login-acount_pages/_check-availability-button.scss';
 
 
 .link-rss {
@@ -442,18 +443,6 @@ $breakpoint_xl: 1367px;
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
 
 
-#check-availability-button {
-	margin: 10px 0 0;
-	border: none;
-	background-color: $color_suva_gray_approx;
-	padding: 10px 15px;
-	font-size: $font_size--xxxs;
-	color: $white;
-	text-transform: uppercase;
-	&:hover {
-		background-color: $color_mountain_mist_approx;
-	}
-}
 .accept-privacy-policy {
 	margin: 0 0 20px;
 	text-align: center;
