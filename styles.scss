@@ -137,6 +137,7 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_add-more-external-records.scss';
 @import '/registration-login-acount_pages/_adress_list-order_list-pages.scss';
 @import '/registration-login-acount_pages/_address-edit-page.scss';
+@import '/registration-login-acount_pages/_recurring-payments.scss';
 
 
 .link-rss {
@@ -447,18 +448,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
-.recurring-payments {
-	.button-2 {
-		font-size: $font_size--xs;
-	}
-	table td {
-		white-space: nowrap;
-		&:first-child {
-			min-width: 120px;
-			white-space: normal;
-		}
-	}
-}
 .return-request-list-page {
 	.details {
 		border-top: 1px solid $color_mercury_approx;
