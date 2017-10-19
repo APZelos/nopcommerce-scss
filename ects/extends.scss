@@ -49,17 +49,6 @@
 }
 
 //original selectors
-//.opc .step-title .number, .opc .step-title .title
-%extend_46 {
-	float: left;
-	min-height: 40px;
-	padding: 10px 15px;
-	line-height: 20px;
-	font-size: $font_size--m;
-	font-weight: normal;
-}
-
-//original selectors
 //.post-title, .news-title
 %extend_47 {
 	display: inline-block;
