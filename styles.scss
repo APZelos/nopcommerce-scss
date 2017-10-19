@@ -146,6 +146,7 @@ $breakpoint_xl: 1367px;
 
 @import '/shopping-cart/_order-progress.scss';
 @import '/shopping-cart/_shopping-cart-page.scss';
+@import '/shopping-cart/_checkout-attributes.scss';
 
 
 .link-rss {
@@ -455,43 +456,6 @@ $breakpoint_xl: 1367px;
 }
 
 /********** SHOPPING CART **********/
-.checkout-attributes {
-	margin: -30px 0 30px;
-	color: $font_color;
-	dt {
-		margin: 0 0 5px;
-		font-weight: bold;
-	}
-	dd {
-		margin: 0 0 20px;
-	}
-	input[type="text"] {
-		min-width: 170px;
-	}
-	select {
-		min-width: 170px;
-	}
-	ul {
-		font-size: 0;
-	}
-	li {
-		display: inline-block;
-		margin: 5px;
-		border: 1px solid $border_color;
-		background-color: $white;
-		padding: 8px 10px;
-		font-size: $font_size--xs;
-		label {
-			display: inline-block;
-			margin: 0 0 0 5px;
-		}
-	}
-	.attribute-squares li {
-		border: none;
-		padding: 0;
-		line-height: 0;
-	}
-}
 .selected-checkout-attributes {
 	margin: 30px 0;
 	color: $font_color;
