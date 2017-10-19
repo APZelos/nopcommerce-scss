@@ -172,39 +172,6 @@
 			text-align: left;
 		}
 	}
-	.login-page {
-		.customer-blocks {
-			overflow: hidden;
-		}
-		.new-wrapper {
-			float: left;
-			width: 49%;
-			margin: 0;
-			.text {
-				min-height: 200px;
-			}
-		}
-		.returning-wrapper {
-			float: right;
-			width: 49%;
-			.form-fields {
-				min-height: 200px;
-				padding: 30px 0 0;
-			}
-			input[type="text"] {
-				width: 300px;
-			}
-			input[type="email"] {
-				width: 300px;
-			}
-			input[type="password"] {
-				width: 300px;
-			}
-			.inputs label {
-				width: 110px;
-			}
-		}
-	}
 	.address-list-page {
 		.section {
 			display: block;
@@ -235,17 +202,6 @@
 		}
 		.buttons {
 			text-align: left;
-		}
-	}
-	.customer-info-page {
-		.vat-note {
-			margin-left: 150px;
-		}
-		.email-to-revalidate-note {
-			margin-left: 150px;
-		}
-		.vat-status {
-			display: inline-block;
 		}
 	}
 	.order-progress {
@@ -352,9 +308,6 @@
 		display: block;
 		width: auto;
 		margin: 0 0 40px;
-	}
-	.registration-page .vat-note {
-		margin-left: 275px;
 	}
 	.payment-info .info {
 		padding: 30px 15px;

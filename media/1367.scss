@@ -1,13 +1,5 @@
 
 @media all and(min-width: 1367px) {
-	.customer-info-page {
-		.vat-note {
-			margin-left: 225px;
-		}
-		.email-to-revalidate-note {
-			margin-left: 225px;
-		}
-	}
 	.cart-footer {
 		.totals {
 			width: 395px;
@@ -40,20 +32,6 @@
 	}
 	.inputs label {
 		width: 375px;
-	}
-	.login-page .returning-wrapper {
-		input[type="text"] {
-			width: 360px;
-		}
-		input[type="email"] {
-			width: 360px;
-		}
-		input[type="password"] {
-			width: 360px;
-		}
-	}
-	.registration-page .vat-note {
-		margin-left: 385px;
 	}
 	.shipping-method .method-list li {
 		margin: 20px 1%;

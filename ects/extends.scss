@@ -49,28 +49,6 @@
 }
 
 //original selectors
-//.registration-page .button-1, .registration-result-page .button-1, .login-page .button-1, .password-recovery-page .button-1, .account-page .button-1, .return-request-page .button-1
-%extend_37 {
-	min-width: 140px;
-	border: none;
-	background-color: $color_main;
-	padding: 10px 30px;
-	text-align: center;
-	font-size: $font_size--s;
-	color: $white;
-	text-transform: uppercase;
-}
-
-//original selectors
-//.registration-page .vat-note, .customer-info-page .vat-note, .customer-info-page .email-to-revalidate-note
-%extend_38 {
-	display: block;
-	font-size: $font_size--xs;
-	margin-top: 7px;
-	white-space: normal;
-}
-
-//original selectors
 //.address-list-page .info, .order-list-page .info
 %extend_39 {
 	margin: 0 0 10px;
