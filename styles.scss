@@ -167,6 +167,7 @@ $breakpoint_xl: 1367px;
 @import '/order-details/_user-agreement-page.scss';
 
 @import '/search_sitemap/_search-input .scss';
+@import '/search_sitemap/_advanced-search.scss';
 
 
 .link-rss {
@@ -477,16 +478,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** SEARCH & SITEMAP ******/
-.advanced-search {
-	margin: 30px 0 0;
-	.price-range {
-		display: inline-block;
-		input {
-			width: 80px;
-			margin: 3px;
-		}
-	}
-}
 .search-results {
 	margin: 30px 0 0;
 	.warning {
