@@ -143,24 +143,6 @@
 	.sublist-toggle {
 		display: none;
 	}
-	.shopping-cart-page {
-		.cart-options {
-			overflow: hidden;
-		}
-		.checkout-attributes {
-			float: left;
-			max-width: 565px;
-			margin: -30px 0 15px;
-			li {
-				margin: 5px 10px 5px 0;
-			}
-		}
-		.selected-checkout-attributes {
-			float: right;
-			max-width: 395px;
-			margin: 15px 0;
-		}
-	}
 	.rental-attributes {
 		overflow: hidden;
 		.attribute-item {
