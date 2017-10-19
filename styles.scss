@@ -144,6 +144,8 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_avatar-page.scss';
 @import '/registration-login-acount_pages/_vendorinfo-page.scss';
 
+@import '/shopping-cart/_order-progress.scss';
+
 
 .link-rss {
 	display: none;
@@ -452,41 +454,6 @@ $breakpoint_xl: 1367px;
 }
 
 /********** SHOPPING CART **********/
-.order-progress {
-	margin: 0 0 50px;
-	background-color: $color_black_haze_approx;
-	padding: 15px 0;
-	text-align: center;
-	ul {
-		font-size: 0;
-	}
-	li {
-		display: inline-block;
-		margin: 10px;
-		&.active-step a {
-			cursor: pointer;
-		}
-		&.inactive-step a {
-			opacity: 0.3;
-			cursor: default;
-		}
-	}
-	a {
-		display: block;
-		min-width: 70px;
-		font-size: $font_size--xs;
-		color: $font_color;
-		&:before {
-			content: "";
-			display: block;
-			width: 40px;
-			height: 40px;
-			margin: 0 auto 15px;
-			border: 1px solid $color_pink_swan_approx;
-			background: $white $url_27 center no-repeat;
-		}
-	}
-}
 .shopping-cart-page {
 	.page-title {
 		margin: 0 0 -1px;
