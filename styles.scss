@@ -133,6 +133,7 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_check-availability-button.scss';
 @import '/registration-login-acount_pages/_accept-privacy-policy.scss';
 @import '/registration-login-acount_pages/_registration-login-account-pages.scss';
+@import '/registration-login-acount_pages/_external-authentication.scss';
 
 
 .link-rss {
@@ -443,24 +444,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
-
-
-
-.external-authentication {
-	margin: 0 0 50px;
-	overflow: hidden;
-	text-align: center;
-	.title {
-		margin: 0 0 15px;
-		font-size: $font_size--xxl;
-		color: $font_color;
-	}
-	.buttons {
-		margin: 0 0 30px;
-		border-top: 1px solid $color_mercury_approx;
-		padding: 30px;
-	}
-}
 .external-auth-errors {
 	color: $color_error;
 }
