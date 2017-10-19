@@ -49,26 +49,6 @@
 }
 
 //original selectors
-//.order-review-data >div, .order-details-area >div, .shipment-details-area >div
-%extend_44 {
-	width: 350px;
-	max-width: 100%;
-	margin: 0 auto 40px;
-	background-color: $color_alabaster_approx;
-	padding: 20px;
-	color: $font_color;
-}
-
-//original selectors
-//.order-review-data .title, .order-details-area .title, .shipment-details-area .title
-%extend_45 {
-	margin: 0 0 5px;
-	padding: 0;
-	font-size: $font_size--m;
-	font-weight: bold;
-}
-
-//original selectors
 //.opc .step-title .number, .opc .step-title .title
 %extend_46 {
 	float: left;

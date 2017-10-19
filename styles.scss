@@ -160,6 +160,7 @@ $breakpoint_xl: 1367px;
 @import '/checkout/_select-pickup-point.scss';
 @import '/checkout/_methods.scss';
 @import '/checkout/_confirm-order.scss';
+@import '/checkout/_order-review-data.scss';
 
 
 .link-rss {
@@ -470,60 +471,7 @@ $breakpoint_xl: 1367px;
 
 
 /********** CHECKOUT **********/
-.order-review-data {
-	> div {
-		@extend %extend_44;
-	}
-	li {
-		padding: 3px 0;
-	}
-	.title {
-		@extend %extend_45;
-		strong {
-			font-weight: 700;
-		}
-	}
-	.payment-method-info {
-		margin-top: 20px;
-	}
-	.shipping-method-info {
-		margin-top: 20px;
-	}
-}
-.order-details-area {
-	> div {
-		@extend %extend_44;
-	}
-	li {
-		padding: 3px 0;
-	}
-	.title {
-		@extend %extend_45;
-		strong {
-			font-weight: 700;
-		}
-	}
-	.payment-method-info {
-		margin-top: 20px;
-	}
-	.shipping-method-info {
-		margin-top: 20px;
-	}
-}
-.shipment-details-area {
-	> div {
-		@extend %extend_44;
-	}
-	li {
-		padding: 3px 0;
-	}
-	.title {
-		@extend %extend_45;
-		strong {
-			font-weight: 700;
-		}
-	}
-}
+
 .opc {
 	.step-title {
 		margin: 0 0 1px;
