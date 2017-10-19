@@ -139,6 +139,7 @@ $breakpoint_xl: 1367px;
 @import '/registration-login-acount_pages/_address-edit-page.scss';
 @import '/registration-login-acount_pages/_recurring-payments.scss';
 @import '/registration-login-acount_pages/_return-request-list-page.scss';
+@import '/registration-login-acount_pages/_reward-points-overview.scss';
 
 
 .link-rss {
@@ -449,9 +450,6 @@ $breakpoint_xl: 1367px;
 
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
-.reward-points-overview {
-	margin: 0 0 25px;
-}
 .change-password-page {
 	.page-title {
 		margin: 0 0 -1px;
