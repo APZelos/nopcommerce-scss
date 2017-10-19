@@ -171,6 +171,8 @@ $breakpoint_xl: 1367px;
 @import '/search_sitemap/_search-results.scss';
 @import '/search_sitemap/_sitemap-page.scss';
 
+@import '/blog_news/_block-blog-archive.scss';
+
 
 .link-rss {
 	display: none;
@@ -480,19 +482,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** BLOG & NEWS ******/
-.block-blog-archive {
-	.number {
-		display: block;
-		color: $font_color;
-		cursor: auto;
-	}
-	.sublist {
-		margin: 5px 0 5px 15px;
-	}
-	li.month {
-		padding: 3px 0 3px 15px;
-	}
-}
 .blog-page {
 	.page-title {
 		margin: 0;
