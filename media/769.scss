@@ -43,24 +43,6 @@
 			padding: 0 10px;
 		}
 	}
-	.checkout-page {
-		.selected-checkout-attributes {
-			float: right;
-			text-align: right;
-		}
-		.address-grid {
-			overflow: hidden;
-		}
-		.address-item {
-			float: left;
-			width: 48%;
-			margin: 0 1% 40px;
-		}
-		.cart-footer .totals {
-			max-width: 350px;
-			margin: 0;
-		}
-	}
 	.shipping-method {
 		.method-name {
 			background-color: $color_black_haze_approx;
