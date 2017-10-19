@@ -49,23 +49,6 @@
 }
 
 //original selectors
-//.shipping-method .method-list, .payment-method .method-list
-%extend_42 {
-	margin: 0 auto 30px;
-	overflow: hidden;
-	text-align: center;
-	font-size: 0;
-}
-
-//original selectors
-//.shipping-method .method-list li label, .payment-method .method-list li label
-%extend_43 {
-	font-size: $font_size--xxs;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
 //.order-review-data >div, .order-details-area >div, .shipment-details-area >div
 %extend_44 {
 	width: 350px;
