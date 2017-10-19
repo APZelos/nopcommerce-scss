@@ -173,6 +173,7 @@ $breakpoint_xl: 1367px;
 
 @import '/blog_news/_block-blog-archive.scss';
 @import '/blog_news/_blog_blogposts-pages.scss';
+@import '/blog_news/_news-items_blog-posts.scss';
 
 
 .link-rss {
@@ -483,21 +484,6 @@ $breakpoint_xl: 1367px;
 
 
 /****** BLOG & NEWS ******/
-.news-items {
-	.news-item {
-		margin: 0 0 30px;
-	}
-	.buttons {
-		margin: 0;
-		padding: 0 10px;
-		.read-more {
-			@extend %extend_53;
-			&:hover {
-				background-color: $color_main--active;
-			}
-		}
-	}
-}
 .post-title {
 	@extend %extend_47;
 	&:hover {
@@ -1433,26 +1419,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .news-list-page .page-title {
 	margin: 0;
-}
-
-.blog-posts .buttons {
-	margin: 0;
-	padding: 0 10px;
-	.read-comments {
-		display: block;
-		margin: 0 0 15px;
-		font-weight: bold;
-		color: $font_color;
-		&:hover {
-			color: $color_main;
-		}
-	}
-	.read-more {
-		@extend %extend_53;
-		&:hover {
-			background-color: $color_main--active;
-		}
-	}
 }
 
 .forum-topic-page .topic-name {

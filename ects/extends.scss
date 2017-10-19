@@ -79,18 +79,6 @@
 }
 
 //original selectors
-//.blog-posts .buttons .read-more, .news-items .buttons .read-more
-%extend_53 {
-	display: inline-block;
-	border: none;
-	background-color: $color_main;
-	padding: 10px 20px;
-	font-size: $font_size--xxxs;
-	color: $white;
-	text-transform: uppercase;
-}
-
-//original selectors
 //.forum-search-page .search-error, .forum-search-page .no-result
 %extend_54 {
 	margin: 0 0 15px;
