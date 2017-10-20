@@ -57,59 +57,6 @@
 }
 
 //original selectors
-//.topic-post .avatar, .profile-info-box .avatar
-%extend_59 {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	border: 1px solid $border_color;
-	overflow: hidden;
-}
-
-//original selectors
-//.topic-post .avatar img, .profile-info-box .avatar img
-%extend_60 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-}
-
-//original selectors
-//.topic-post .user-stats span, .profile-info-box .profile-stats span
-%extend_61 {
-	margin: 0 0 0 3px;
-	font-weight: bold;
-	color: $font_color;
-}
-
-//original selectors
-//.topic-post .pm-button, .profile-info-box .pm-button
-%extend_62 {
-	display: inline-block;
-	border: none;
-	background-color: $color_suva_gray_approx;
-	padding: 10px 20px;
-	font-size: $font_size--xxxs;
-	color: $white;
-	text-transform: uppercase;
-}
-
-//original selectors
-//.topic-post .quote, .latest-posts .quote
-%extend_63 {
-	margin: 10px 0;
-	border: 1px dashed $border_color--alt;
-	background-color: $color_alabaster_approx;
-	padding: 10px;
-	color: $font_color--alt;
-}
-
-//original selectors
 //.forum-edit-page .bb-code-editor-wrapper, .private-message-send-page .bb-code-editor-wrapper
 %extend_64 {
 	max-width: 400px;
