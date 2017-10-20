@@ -1,19 +1,5 @@
 
 //original selectors
-//.category-description ul, .manufacturer-description ul, .full-description ul, .topic-block ul, .topic-page ul, .post-body ul
-%extend_6 {
-	margin: 12px 0;
-	padding: 0 0 0 36px;
-	list-style: disc;
-}
-//original selectors
-//.category-description ol, .manufacturer-description ol, .full-description ol, .topic-block ol, .topic-page ol, .post-body ol
-%extend_7 {
-	margin: 12px 0;
-	padding: 0 0 0 36px;
-	list-style: decimal;
-}
-//original selectors
 //.cart th, .data-table th, .forum-table th
 %extend_12 {
 	border-width: 1px 1px 0;
