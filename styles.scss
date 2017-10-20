@@ -185,6 +185,7 @@ $breakpoint_xl: 1367px;
 @import '/blog_news/_news-list-homepage.scss';
 
 @import '/forum_profile/_forums-main-page.scss';
+@import '/forum_profile/_forum-breadcrumb.scss';
 
 
 .link-rss {
@@ -495,9 +496,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forum-breadcrumb {
-	margin: 0 0 40px;
-}
 .forums-header {
 	margin: 0 0 50px;
 	overflow: hidden;
