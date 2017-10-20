@@ -184,6 +184,8 @@ $breakpoint_xl: 1367px;
 @import '/blog_news/_comment-body.scss';
 @import '/blog_news/_news-list-homepage.scss';
 
+@import '/forum_profile/_forums-main-page.scss';
+
 
 .link-rss {
 	display: none;
@@ -493,18 +495,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forums-main-page {
-	.topic-block {
-		margin: 0 0 35px;
-		text-align: center;
-		p {
-			text-align: center;
-		}
-	}
-	.pager {
-		display: none;
-	}
-}
 .forum-breadcrumb {
 	margin: 0 0 40px;
 }
