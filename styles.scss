@@ -190,6 +190,7 @@ $breakpoint_xl: 1367px;
 @import '/forum_profile/_forum-search-box.scss';
 @import '/forum_profile/_forum-search-page.scss';
 @import '/forum_profile/_forums-table-section.scss';
+@import '/forum_profile/_forums-table-section-title.scss';
 
 
 .link-rss {
@@ -500,19 +501,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forums-table-section-title {
-	margin: 0 0 15px;
-	padding: 0 10px;
-	a {
-		@extend %extend_55;
-		&:hover {
-			color: $color_main;
-		}
-	}
-	strong {
-		@extend %extend_55;
-	}
-}
 .forum-page {
 	.forum-info {
 		margin: 0 0 30px;

@@ -57,14 +57,6 @@
 }
 
 //original selectors
-//.forums-table-section-title a, .forums-table-section-title strong
-%extend_55 {
-	font-size: $font_size--xxxl;
-	font-weight: normal;
-	color: $font_color;
-}
-
-//original selectors
 //.forum-page .forum-name, .forum-topic-page .topic-name
 %extend_57 {
 	margin: 0 0 25px;
