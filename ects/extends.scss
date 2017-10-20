@@ -1,26 +1,4 @@
 
-//original selectors
-//.cart th, .data-table th, .forum-table th
-%extend_12 {
-	border-width: 1px 1px 0;
-	border-style: solid;
-	border-color: $border_color;
-	background-color: $color_black_haze_approx;
-	padding: 10px;
-	white-space: nowrap;
-	font-weight: normal;
-}
-//original selectors
-//.cart td, .data-table td, .forum-table td
-%extend_13 {
-	min-width: 50px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: transparent $border_color $border_color;
-	background-color: $white;
-	padding: 20px;
-	color: $font_color;
-}
 
 //original selectors
 //.post-body, .news-body

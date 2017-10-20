@@ -1,0 +1,175 @@
+.table-wrapper {
+	overflow-x: auto;
+}
+
+.cart,
+.data-table,
+.forum-table {
+
+	th {
+    border-width: 1px 1px 0;
+    border-style: solid;
+    border-color: $border_color;
+    background-color: $color_black_haze_approx;
+    padding: 10px;
+    white-space: nowrap;
+    font-weight: normal;
+  }
+  
+	td {
+    min-width: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent $border_color $border_color;
+    background-color: $white;
+    padding: 20px;
+    color: $font_color;
+  }
+  
+	a {
+		font-weight: normal;
+    color: $color_main;
+    
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.cart,
+.data-table {
+
+  &.unit-price {
+    white-space: nowrap;
+  }
+}
+
+.cart .product,
+.data-table .product,
+.data-table .info {
+  min-width: 225px;
+  text-align: left;
+  
+  a {
+    font-weight: bold;
+    color: $font_color;
+    
+    &:hover {
+      color: $color_main;
+      text-decoration: none;
+    }
+  }
+}
+
+.cart {
+
+	td {
+        
+		&.subtotal {
+			white-space: nowrap;
+      color: $font_color;
+      
+			.discount {
+				font-style: italic;
+				color: $color_main;
+      }
+      
+			.discount-additional-info {
+				font-style: italic;
+				color: $color_main;
+			}
+    }
+    
+		&.quantity input {
+			width: 50px;
+			text-align: center;
+		}
+  }
+  
+	.product {
+    
+		.edit-item {
+      margin: 10px 0 0;
+      
+			a {
+				font-weight: normal;
+        color: $color_main;
+        
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+  }
+  
+  .remove-from-cart,
+  .add-to-cart {
+		text-align: center;
+	}
+}
+
+.data-table {
+
+	td {
+    
+		&.total {
+			white-space: nowrap;
+			color: $font_color;
+		}
+  }
+  
+  .message,
+  .name {
+		min-width: 225px;
+		text-align: left;
+  }
+  
+  .select-boxes,
+  .order {
+		text-align: center;
+  }
+  
+	em a {
+		font-weight: bold;
+		color: $font_color;
+  }
+  
+	div.download {
+		margin: 10px 0 0;
+	}
+}
+
+.forum-table {
+
+	th {
+
+    &.replies,
+    &.views,
+    &.votes,
+    &.latest-post,
+    &.topics,
+    &.posts {
+			display: none;
+		}
+  }
+  
+	td {
+		min-width: 90px;
+    padding: 10px;
+    
+    &.replies,
+    &.views,
+    &.votes,
+    &.latest-post,
+    &.topics,
+    &.posts,
+    &.image {
+			min-width: 0;
+		}
+  }
+  
+  .forum-details,
+  .topic-details {
+		text-align: left;
+	}
+}
