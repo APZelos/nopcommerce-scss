@@ -1,17 +1,5 @@
 
 //original selectors
-//.forum-edit-page .buttons input, .move-topic-page .buttons input, .private-messages .buttons input
-%extend_66 {
-	min-width: 140px;
-	border: none;
-	background-color: $color_mountain_mist_approx;
-	padding: 10px 30px;
-	text-align: center;
-	font-size: $font_size--s;
-	color: $white;
-	text-transform: uppercase;
-}
-//original selectors
 //.category-description ul, .manufacturer-description ul, .full-description ul, .topic-block ul, .topic-page ul, .post-body ul
 %extend_6 {
 	margin: 12px 0;
@@ -54,23 +42,6 @@
 	margin: 0 0 20px;
 	padding: 0 10px;
 	line-height: 22px;
-}
-
-//original selectors
-//.forum-edit-page .bb-code-editor-wrapper, .private-message-send-page .bb-code-editor-wrapper
-%extend_64 {
-	max-width: 400px;
-	margin: 20px auto;
-	background-color: $border_color;
-	padding: 10px;
-}
-
-//original selectors
-//.forum-edit-page .toolbar .button, .private-message-send-page .toolbar .button
-%extend_65 {
-	margin: 0 2px 0 0;
-	border: $color_soft_amber_approx 1px solid;
-	padding: 2px;
 }
 
 //original selectors

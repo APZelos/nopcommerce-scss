@@ -195,6 +195,7 @@ $breakpoint_xl: 1367px;
 @import '/forum_profile/_forum-actions.scss';
 @import '/forum_profile/_active-discussions-page.scss';
 @import '/forum_profile/_topic_forum-post_profile-info-box.scss';
+@import '/forum_profile/_forum-edit_move-topic_pages.scss';
 
 
 .link-rss {
@@ -500,116 +501,6 @@ $breakpoint_xl: 1367px;
 	}
 	.topic-details {
 		text-align: left;
-	}
-}
-
-
-/*** FORUM & PROFILE ***/
-.forum-edit-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.message-error {
-		margin: 20px 0;
-	}
-	.inputs {
-		strong {
-			display: inline-block;
-			max-width: 400px;
-			font-size: $font_size--xxxl;
-			font-weight: normal;
-			color: $font_color;
-			white-space: normal;
-		}
-		.topic-subject {
-			font-size: $font_size--l;
-		}
-		&.reversed {
-			margin: 0;
-			label {
-				width: auto;
-				margin: 5px;
-				font-size: $font_size--xs;
-				white-space: normal;
-			}
-		}
-	}
-	.bb-code-editor-wrapper {
-		@extend %extend_64;
-	}
-	textarea {
-		display: block;
-		margin: auto;
-	}
-	.buttons {
-		input {
-			@extend %extend_66;
-			&:hover {
-				background-color: $color_suva_gray_approx;
-			}
-		}
-		.button-1 {
-			background-color: $color_main;
-			&:hover {
-				background-color: $color_main--active;
-			}
-		}
-	}
-	.toolbar .button {
-		@extend %extend_65;
-		&:hover {
-			border: $border_color--active 1px solid;
-		}
-	}
-}
-.move-topic-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	label {
-		white-space: normal;
-	}
-	.buttons {
-		input {
-			@extend %extend_66;
-			&:hover {
-				background-color: $color_suva_gray_approx;
-			}
-		}
-		.button-1 {
-			background-color: $color_main;
-			&:hover {
-				background-color: $color_main--active;
-			}
-		}
-	}
-}
-.private-message-send-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.message-error {
-		margin: 20px 0;
-	}
-	.bb-code-editor-wrapper {
-		@extend %extend_64;
-	}
-	textarea {
-		display: block;
-		margin: auto;
-	}
-	a {
-		font-size: $font_size--xs;
-		color: $color_main;
-	}
-	span {
-		font-size: $font_size--xs;
-	}
-	.toolbar .button {
-		@extend %extend_65;
-		&:hover {
-			border: $border_color--active 1px solid;
-		}
 	}
 }
 

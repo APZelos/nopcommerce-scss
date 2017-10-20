@@ -157,18 +157,6 @@
 	.current-time {
 		float: right;
 	}
-	.private-message-send-page {
-		textarea {
-			width: 600px;
-			height: 250px;
-		}
-		.bb-code-editor-wrapper {
-			display: inline-block;
-			width: 400px;
-			margin: 10px 0;
-			vertical-align: middle;
-		}
-	}
 	.order-details-page .data-table {
 		tr {
 			width: auto;
@@ -193,9 +181,5 @@
 				width: 100% !important;
 			}
 		}
-	}
-	.forum-edit-page textarea {
-		width: 600px;
-		height: 250px;
 	}
 }
