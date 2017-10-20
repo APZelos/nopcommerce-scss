@@ -131,7 +131,7 @@
     
 		.edit-post-button {
 			padding: 10px 10px 10px 33px;
-      background: $url_36 left center no-repeat;
+      background: $edit_-icon left center no-repeat;
       
 			&:hover {
 				color: $color_main;
@@ -140,7 +140,7 @@
     
 		.delete-post-button {
 			padding: 10px 10px 10px 33px;
-      background: $url_37 left center no-repeat;
+      background: $remove_-icon left center no-repeat;
       
 			&:hover {
 				color: $color_main;
@@ -190,20 +190,20 @@
         height: 24px;
         
 				&.up.selected {
-					background: $url_39 no-repeat 50% 50%;
+					background: $vote-up-selected-icon no-repeat 50% 50%;
         }
         
 				&.down.selected {
-					background: $url_41 no-repeat 50% 50%;
+					background: $vote-down-selected-icon no-repeat 50% 50%;
 				}
       }
       
 			&.up {
-				background: $url_38 no-repeat 50% 50%;
+				background: $vote-up-icon no-repeat 50% 50%;
       }
       
 			&.down {
-				background: $url_40 no-repeat 50% 50%;
+				background: $vote-down-icon no-repeat 50% 50%;
 			}
 		}
   }

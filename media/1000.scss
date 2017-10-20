@@ -2,7 +2,7 @@
 @media all and(max-width: 1000px) {
 
 	.menu-toggle {
-		background: $color_main $url_42 right center no-repeat;
+		background: $color_main $menu-icon right center no-repeat;
 		padding: 15px;
 		font-size: $font_size--s;;
 		font-weight: bold;
@@ -53,7 +53,7 @@
 		width: 55px;
 		height: 55px;
 		border-left: 1px solid $white;
-		background: $url_43 center no-repeat;
+		background: $toggle-black-icon center no-repeat;
 		padding: 15px;
 		font-size: $font_size--s;;
 		font-weight: bold;

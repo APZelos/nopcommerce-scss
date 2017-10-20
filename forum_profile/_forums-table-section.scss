@@ -64,14 +64,14 @@
 		width: 38px;
 		height: 32px;
 		margin: auto;
-    background: $url_29 center no-repeat;
+    background: $topic-type1-icon center no-repeat;
     
 		&.sticky {
-			background: $url_30 center no-repeat;
+			background: $topic-type2-icon center no-repeat;
     }
     
 		&.announcement {
-			background: $url_31 center no-repeat;
+			background: $topic-type3-icon center no-repeat;
 		}
 	}
 }
