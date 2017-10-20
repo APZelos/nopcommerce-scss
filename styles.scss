@@ -188,6 +188,7 @@ $breakpoint_xl: 1367px;
 @import '/forum_profile/_forum-breadcrumb.scss';
 @import '/forum_profile/_forums-header.scss';
 @import '/forum_profile/_forum-search-box.scss';
+@import '/forum_profile/_forum-search-page.scss';
 
 
 .link-rss {
@@ -498,17 +499,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forum-search-page {
-	.page-title {
-		margin: 0 0 -1px;
-	}
-	.search-error {
-		@extend %extend_54;
-	}
-	.no-result {
-		@extend %extend_54;
-	}
-}
 .forums-table-section {
 	margin: 0 0 60px;
 	.forum-title {
