@@ -25,38 +25,6 @@
 		vertical-align: top;
 		text-align: left;
 	}
-	.forum-actions {
-		overflow: hidden;
-		.actions {
-			float: left;
-		}
-		.pager {
-			float: right;
-			max-width: 450px;
-			li {
-				margin: 2px 4px;
-			}
-			&.upper {
-				display: block;
-			}
-		}
-	}
-	.topic-actions {
-		overflow: hidden;
-		.actions {
-			float: left;
-		}
-		.pager {
-			float: right;
-			max-width: 450px;
-			li {
-				margin: 2px 4px;
-			}
-		}
-		&.lower .actions {
-			display: block;
-		}
-	}
 	.topic-posts {
 		margin: 0 0 30px;
 	}

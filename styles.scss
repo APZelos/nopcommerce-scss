@@ -192,6 +192,7 @@ $breakpoint_xl: 1367px;
 @import '/forum_profile/_forums-table-section.scss';
 @import '/forum_profile/_forums-table-section-title.scss';
 @import '/forum_profile/_forum-page.scss';
+@import '/forum_profile/_forum-actions.scss';
 
 
 .link-rss {
@@ -502,65 +503,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forum-actions {
-	margin: 0 0 30px;
-	font-size: 0;
-	.actions {
-		a {
-			@extend %extend_58;
-			&:hover {
-				background-color: $color_mercury_approx;
-			}
-		}
-		.new-topic {
-			background: $color_gallery_approx $url_32 left center no-repeat;
-		}
-		.watch-forum {
-			background: $color_gallery_approx $url_33 left center no-repeat;
-		}
-	}
-	.pager.upper {
-		display: none;
-		margin: 0;
-	}
-}
-.topic-actions {
-	margin: 0 0 30px;
-	font-size: 0;
-	.actions {
-		a {
-			@extend %extend_58;
-			&:hover {
-				background-color: $color_mercury_approx;
-			}
-		}
-		.watch-forum {
-			background: $color_gallery_approx $url_33 left center no-repeat;
-		}
-	}
-	.reply-topic-button {
-		background: $color_gallery_approx $url_34 left center no-repeat;
-	}
-	.watch-topic-button {
-		background: $color_gallery_approx $url_33 left center no-repeat;
-	}
-	.move-topic-button {
-		background: $color_gallery_approx $url_35 left center no-repeat;
-	}
-	.edit-topic-button {
-		background: $color_gallery_approx $url_36 left center no-repeat;
-	}
-	.delete-topic-button {
-		background: $color_gallery_approx $url_37 left center no-repeat;
-	}
-	.pager.upper {
-		display: none;
-		margin: 0;
-	}
-	&.lower .actions {
-		display: none;
-	}
-}
 .active-discussions-page {
 	.forums-table-section-title {
 		margin: 0 0 25px;
