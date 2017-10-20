@@ -186,6 +186,7 @@ $breakpoint_xl: 1367px;
 
 @import '/forum_profile/_forums-main-page.scss';
 @import '/forum_profile/_forum-breadcrumb.scss';
+@import '/forum_profile/_forums-header.scss';
 
 
 .link-rss {
@@ -496,19 +497,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forums-header {
-	margin: 0 0 50px;
-	overflow: hidden;
-	&:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-	.current-time {
-		margin: 0 0 15px;
-		color: $font_color;
-	}
-}
 .forum-search-box {
 	.basic {
 		overflow: hidden;
