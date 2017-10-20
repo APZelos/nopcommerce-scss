@@ -191,6 +191,7 @@ $breakpoint_xl: 1367px;
 @import '/forum_profile/_forum-search-page.scss';
 @import '/forum_profile/_forums-table-section.scss';
 @import '/forum_profile/_forums-table-section-title.scss';
+@import '/forum_profile/_forum-page.scss';
 
 
 .link-rss {
@@ -501,18 +502,6 @@ $breakpoint_xl: 1367px;
 
 
 /*** FORUM & PROFILE ***/
-.forum-page {
-	.forum-info {
-		margin: 0 0 30px;
-	}
-	.forum-name {
-		@extend %extend_57;
-		h1 {
-			font-size: $font_size--title;
-			font-weight: normal;
-		}
-	}
-}
 .forum-actions {
 	margin: 0 0 30px;
 	font-size: 0;
@@ -1159,14 +1148,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .news-list-page .page-title {
 	margin: 0;
-}
-
-.forum-topic-page .topic-name {
-	@extend %extend_57;
-	h1 {
-		font-size: $font_size--title;
-		font-weight: normal;
-	}
 }
 
 .private-messages .buttons {
