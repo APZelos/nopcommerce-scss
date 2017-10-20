@@ -173,3 +173,152 @@
 		text-align: left;
 	}
 }
+
+@media all and(min-width: 481px) {
+	.cart tr {
+		width: 46%;
+    margin: 40px 2% 0;
+    
+		&:nth-child(2n + 1) {
+			clear: both;
+		}
+  }
+  
+	.forum-group .forum-table {
+
+		th,
+		td  {
+
+      &.latest-post,
+      &.topics,
+      &.posts {
+				display: table-cell;
+			}
+    }
+  }
+  
+	.topic-group .forum-table {
+
+    th.latest-post,
+    td.latest-post {
+			display: table-cell;
+		}
+  }
+  
+	.forum-table td.image {
+		max-width: 40px;
+		div {
+			max-width: 100%;
+			background-size: contain;
+		}
+	}
+}
+
+
+@media all and(min-width: 769px) {
+  
+	.cart tr {
+		width: 31.33333%;
+    margin: 40px 1% 0;
+    
+		&:nth-child(2n + 1) {
+			clear: none;
+    }
+    
+		&:nth-child(3n + 1) {
+			clear: both;
+		}
+  }
+  
+	.forum-table {
+		th {
+      &.replies,
+      &.views,
+      &.votes {
+				display: table-cell;
+			}
+		}
+		td {
+      &.replies,
+      &.views,
+      &.votes {
+				display: table-cell;
+      }
+      
+			&.image {
+        max-width: none;
+        
+				div {
+					max-width: none;
+					background-size: initial;
+				}
+			}
+		}
+	}
+}
+
+@media all and(max-width: 1000px) {
+  
+	.cart {
+    display: block;
+    
+    colgroup,
+    thead {
+			display: none;
+    }
+    
+		tbody {
+			display: block;
+			overflow: hidden;
+    }
+    
+		tr {
+			display: block;
+			float: left;
+			width: 100%;
+			margin: 40px 0 0;
+			border: 1px solid $border_color;
+    }
+    
+		td {
+			display: block;
+			border: none;
+      padding: 10px;
+      
+			&.remove-from-cart {
+				margin: 0 0 15px;
+				border-bottom: 1px solid $border_color;
+				background-color: $color_gallery_approx;
+				padding: 10px;
+      }
+      
+			&.product-picture {
+				border-top: 1px solid $border_color;
+				padding: 15px 10px 5px;
+      }
+      
+      &.product,
+      &.quantity,
+      &.unit-price,
+      &.subtotal {
+				display: inline-block;
+				padding: 20px 10px;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+
+@media all and(min-width: 1001px) {
+  
+	.order-details-page .data-table {
+		tr {
+			width: auto;
+			margin: 0;
+    }
+    
+		label {
+			display: none;
+		}
+	}
+}

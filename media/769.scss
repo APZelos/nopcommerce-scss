@@ -28,51 +28,10 @@
 	.topic-posts {
 		margin: 0 0 30px;
 	}
-	.forum-table {
-		th {
-			&.replies {
-				display: table-cell;
-			}
-			&.views {
-				display: table-cell;
-			}
-			&.votes {
-				display: table-cell;
-			}
-		}
-		td {
-			&.replies {
-				display: table-cell;
-			}
-			&.views {
-				display: table-cell;
-			}
-			&.votes {
-				display: table-cell;
-			}
-			&.image {
-				max-width: none;
-				div {
-					max-width: none;
-					background-size: initial;
-				}
-			}
-		}
-	}
 	.ui-tabs-nav {
 		text-align: left;
 		li {
 			margin: 0 10px -1px 0 !important;
-		}
-	}
-	.cart tr {
-		width: 31.33333%;
-		margin: 40px 1% 0;
-		&:nth-child(2n + 1) {
-			clear: none;
-		}
-		&:nth-child(3n + 1) {
-			clear: both;
 		}
 	}
 	.payment-info .info {

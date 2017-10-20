@@ -1,12 +1,5 @@
 
 @media all and(min-width: 481px) {
-	.cart tr {
-		width: 46%;
-		margin: 40px 2% 0;
-		&:nth-child(2n + 1) {
-			clear: both;
-		}
-	}
 	.ui-tabs-nav li {
 		display: inline-block;
 		min-width: 150px;
@@ -34,45 +27,6 @@
 			display: inline-block;
 			width: auto;
 			margin: 1px;
-		}
-	}
-	.forum-group .forum-table {
-		th {
-			&.latest-post {
-				display: table-cell;
-			}
-			&.topics {
-				display: table-cell;
-			}
-			&.posts {
-				display: table-cell;
-			}
-		}
-		td {
-			&.latest-post {
-				display: table-cell;
-			}
-			&.topics {
-				display: table-cell;
-			}
-			&.posts {
-				display: table-cell;
-			}
-		}
-	}
-	.topic-group .forum-table {
-		th.latest-post {
-			display: table-cell;
-		}
-		td.latest-post {
-			display: table-cell;
-		}
-	}
-	.forum-table td.image {
-		max-width: 40px;
-		div {
-			max-width: 100%;
-			background-size: contain;
 		}
 	}
 }
