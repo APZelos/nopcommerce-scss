@@ -80,7 +80,8 @@ input[type="reset"] {
 
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="reset"]::-moz-focus-inner {
+input[type="reset"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner  {
 	margin: 0;
 	border: 0;
 	padding: 0;

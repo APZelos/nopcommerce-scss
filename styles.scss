@@ -164,89 +164,89 @@ $view-list-icon: url("../images/view-list.png");
 @import './product-review/_write-review.scss';
 @import './product-review/_product-review.scss';
 
-@import '/wishlist-compare/_wishlist-page.scss';
-@import '/wishlist-compare/_wishlist-content.scss';
-@import '/wishlist-compare/_compare-products-page.scss';
-@import '/wishlist-compare/_compare-products-table.scss';
+@import './wishlist-compare/_wishlist-page.scss';
+@import './wishlist-compare/_wishlist-content.scss';
+@import './wishlist-compare/_compare-products-page.scss';
+@import './wishlist-compare/_compare-products-table.scss';
 
-@import '/topics/_topic-block-title.scss';
-@import '/topics/_topic-block-body.scss';
-@import '/topics/_topic-password.scss';
-@import '/topics/_enter-password-title.scss';
-@import '/topics/_enter-password-form.scss';
+@import './topics/_topic-block-title.scss';
+@import './topics/_topic-block-body.scss';
+@import './topics/_topic-password.scss';
+@import './topics/_enter-password-title.scss';
+@import './topics/_enter-password-form.scss';
 
-@import '/_contact-page.scss';
+@import './_contact-page.scss';
 
-@import '/registration-login-acount_pages/_gender.scss';
-@import '/registration-login-acount_pages/_date-of-birth.scss';
-@import '/registration-login-acount_pages/_check-availability-button.scss';
-@import '/registration-login-acount_pages/_accept-privacy-policy.scss';
-@import '/registration-login-acount_pages/_registration-login-account-pages.scss';
-@import '/registration-login-acount_pages/_external-authentication.scss';
-@import '/registration-login-acount_pages/_add-more-external-records.scss';
-@import '/registration-login-acount_pages/_adress_list-order_list-pages.scss';
-@import '/registration-login-acount_pages/_address-edit-page.scss';
-@import '/registration-login-acount_pages/_recurring-payments.scss';
-@import '/registration-login-acount_pages/_return-request-list-page.scss';
-@import '/registration-login-acount_pages/_reward-points-overview.scss';
-@import '/registration-login-acount_pages/_change-password-page.scss';
-@import '/registration-login-acount_pages/_avatar-page.scss';
-@import '/registration-login-acount_pages/_vendorinfo-page.scss';
+@import './registration-login-acount_pages/_gender.scss';
+@import './registration-login-acount_pages/_date-of-birth.scss';
+@import './registration-login-acount_pages/_check-availability-button.scss';
+@import './registration-login-acount_pages/_accept-privacy-policy.scss';
+@import './registration-login-acount_pages/_registration-login-account-pages.scss';
+@import './registration-login-acount_pages/_external-authentication.scss';
+@import './registration-login-acount_pages/_add-more-external-records.scss';
+@import './registration-login-acount_pages/_adress_list-order_list-pages.scss';
+@import './registration-login-acount_pages/_address-edit-page.scss';
+@import './registration-login-acount_pages/_recurring-payments.scss';
+@import './registration-login-acount_pages/_return-request-list-page.scss';
+@import './registration-login-acount_pages/_reward-points-overview.scss';
+@import './registration-login-acount_pages/_change-password-page.scss';
+@import './registration-login-acount_pages/_avatar-page.scss';
+@import './registration-login-acount_pages/_vendorinfo-page.scss';
 
-@import '/shopping-cart/_order-progress.scss';
-@import '/shopping-cart/_shopping-cart-page.scss';
-@import '/shopping-cart/_checkout-attributes.scss';
-@import '/shopping-cart/_selected-checkout-attributes.scss';
-@import '/shopping-cart/_cart-footer.scss';
-@import '/shopping-cart/_cart-total.scss';
-@import '/shopping-cart/_min-amount-warning.scss';
-@import '/shopping-cart/_terms-of-service.scss';
-@import '/shopping-cart/_cart-collaterals.scss';
-@import '/shopping-cart/_remove-buttons.scss';
+@import './shopping-cart/_order-progress.scss';
+@import './shopping-cart/_shopping-cart-page.scss';
+@import './shopping-cart/_checkout-attributes.scss';
+@import './shopping-cart/_selected-checkout-attributes.scss';
+@import './shopping-cart/_cart-footer.scss';
+@import './shopping-cart/_cart-total.scss';
+@import './shopping-cart/_min-amount-warning.scss';
+@import './shopping-cart/_terms-of-service.scss';
+@import './shopping-cart/_cart-collaterals.scss';
+@import './shopping-cart/_remove-buttons.scss';
 
-@import '/checkout/_checkout-page.scss';
-@import '/checkout/_enter-address.scss';
-@import '/checkout/_select-pickup-point.scss';
-@import '/checkout/_methods.scss';
-@import '/checkout/_confirm-order.scss';
-@import '/checkout/_order-review-data.scss';
-@import '/checkout/_opc.scss';
+@import './checkout/_checkout-page.scss';
+@import './checkout/_enter-address.scss';
+@import './checkout/_select-pickup-point.scss';
+@import './checkout/_methods.scss';
+@import './checkout/_confirm-order.scss';
+@import './checkout/_order-review-data.scss';
+@import './checkout/_opc.scss';
 
-@import '/order-details/_order-details-page.scss';
-@import '/order-details/_user-agreement-page.scss';
+@import './order-details/_order-details-page.scss';
+@import './order-details/_user-agreement-page.scss';
 
-@import '/search_sitemap/_search-input .scss';
-@import '/search_sitemap/_advanced-search.scss';
-@import '/search_sitemap/_search-results.scss';
-@import '/search_sitemap/_sitemap-page.scss';
+@import './search_sitemap/_search-input .scss';
+@import './search_sitemap/_advanced-search.scss';
+@import './search_sitemap/_search-results.scss';
+@import './search_sitemap/_sitemap-page.scss';
 
-@import '/blog_news/_block-blog-archive.scss';
-@import '/blog_news/_blog_blogposts-pages.scss';
-@import '/blog_news/_news-items_blog-posts.scss';
-@import '/blog_news/_post_news-titles.scss';
-@import '/blog_news/_post_news-dates.scss';
-@import '/blog_news/_new-comment.scss';
-@import '/blog_news/_comment-list.scss';
-@import '/blog_news/_comment-info.scss';
-@import '/blog_news/_comment-time .scss';
-@import '/blog_news/_comment-title.scss';
-@import '/blog_news/_comment-body.scss';
-@import '/blog_news/_news-list-homepage.scss';
+@import './blog_news/_block-blog-archive.scss';
+@import './blog_news/_blog_blogposts-pages.scss';
+@import './blog_news/_news-items_blog-posts.scss';
+@import './blog_news/_post_news-titles.scss';
+@import './blog_news/_post_news-dates.scss';
+@import './blog_news/_new-comment.scss';
+@import './blog_news/_comment-list.scss';
+@import './blog_news/_comment-info.scss';
+@import './blog_news/_comment-time .scss';
+@import './blog_news/_comment-title.scss';
+@import './blog_news/_comment-body.scss';
+@import './blog_news/_news-list-homepage.scss';
 
-@import '/forum_profile/_forums-main-page.scss';
-@import '/forum_profile/_forum-breadcrumb.scss';
-@import '/forum_profile/_forums-header.scss';
-@import '/forum_profile/_forum-search-box.scss';
-@import '/forum_profile/_forum-search-page.scss';
-@import '/forum_profile/_forums-table-section.scss';
-@import '/forum_profile/_forums-table-section-title.scss';
-@import '/forum_profile/_forum-page.scss';
-@import '/forum_profile/_forum-actions.scss';
-@import '/forum_profile/_active-discussions-page.scss';
-@import '/forum_profile/_topic_forum-post_profile-info-box.scss';
-@import '/forum_profile/_forum-edit_move-topic_pages.scss';
+@import './forum_profile/_forums-main-page.scss';
+@import './forum_profile/_forum-breadcrumb.scss';
+@import './forum_profile/_forums-header.scss';
+@import './forum_profile/_forum-search-box.scss';
+@import './forum_profile/_forum-search-page.scss';
+@import './forum_profile/_forums-table-section.scss';
+@import './forum_profile/_forums-table-section-title.scss';
+@import './forum_profile/_forum-page.scss';
+@import './forum_profile/_forum-actions.scss';
+@import './forum_profile/_active-discussions-page.scss';
+@import './forum_profile/_topic_forum-post_profile-info-box.scss';
+@import './forum_profile/_forum-edit_move-topic_pages.scss';
 
-@import '/_private-messages-page.scss';
+@import './_private-messages-page.scss';
 
 .link-rss {
 	display: none;
@@ -302,7 +302,7 @@ $view-list-icon: url("../images/view-list.png");
 	border-radius: $border_radius;
 	background: none;
 	padding: 0;
-	font: normal $font_size--xs $font_15, $font_16, $font_17;
+	font: normal $font_size--xs $font;
 	color: $font_color--alt;
 }
 .ui-tabs-nav {
@@ -349,10 +349,6 @@ $view-list-icon: url("../images/view-list.png");
 pre {
 	white-space: normal;
 	word-wrap: break-word;
-}
-
-input[type="file"] > input[type="button"]::-moz-focus-inner {
-	@extend %moz-focus-inner;
 }
 
 .footer-tax-shipping a {
@@ -464,7 +460,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .private-messages .buttons {
 	input {
-		@extend %extend_66;
+		display: block;
+		width: 250px;
+		margin: 0 auto 3px;
+		font-size: 15px;
 		&:hover {
 			background-color: $color_suva_gray_approx;
 		}

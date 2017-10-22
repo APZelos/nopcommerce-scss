@@ -45,7 +45,16 @@
   }
   
 	.button-2 {
-    @extend %extend_24;
+		display: block;
+		width: 100%;
+		border: none;
+		background-color: $color_gray_nurse_approx;
+		background-position: left center;
+		background-repeat: no-repeat;
+		padding: 12px 15px 12px 40px;
+		text-align: left;
+		font-size: 14px;
+		color: $font_color--alt;
     
 		&:hover {
 			background-color: $border_color;
