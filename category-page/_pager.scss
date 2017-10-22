@@ -49,19 +49,19 @@
 		}
     
 		&.previous-page * {
-			background-image: $url_12;
+			background-image: $prev-icon;
     }
     
 		&.next-page * {
-			background-image: $url_13;
+			background-image: $next-icon;
     }
     
 		&.first-page * {
-			background-image: $url_14;
+			background-image: $first-icon;
     }
     
 		&.last-page * {
-			background-image: $url_15;
+			background-image: $last-icon;
 		}
 	}
 }

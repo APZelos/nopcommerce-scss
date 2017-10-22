@@ -10,7 +10,7 @@
 			display: inline-block;
 			font-size: $font_size--xs;
 			padding: 17px 17px 17px 40px;
-			background: $url_16 no-repeat 13px center;
+			background: $discontinued-product-icon no-repeat 13px center;
 			color: $color_valencia_approx;
 		}
   }
@@ -53,23 +53,23 @@
   }
   
 	.add-to-compare-list-button {
-		background-image: $url_10;
+		background-image: $compare-button-icon;
   }
   
 	.email-a-friend-button {
-		background-image: $url_17;
+		background-image: $email-button-icon;
   }
   
 	.subscribe-button {
-		background-image: $url_17;
+		background-image: $email-button-icon;
   }
   
 	.download-sample-button {
-		background-image: $url_18;
+		background-image: $download-button-icon;
   }
   
 	.add-to-wishlist-button {
-		background-image: $url_11;
+		background-image: $wishlist-button-icon;
   }
   
 	.manufacturers {
@@ -104,7 +104,7 @@
 	.free-shipping {
     display: none;
     margin: 10px 0;
-    background: $url_19 left center no-repeat;
+    background: $shipping-icon left center no-repeat;
     padding: 2px 0 2px 28px;
     font-weight: bold;
     color: $font_color;

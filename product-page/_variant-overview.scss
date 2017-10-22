@@ -31,15 +31,15 @@
   }
   
 	.subscribe-button {
-		background-image: $url_17;
+		background-image: $email-button-icon;
   }
   
 	.download-sample-button {
-		background-image: $url_18;
+		background-image: $download-button-icon;
   }
   
 	.add-to-wishlist-button {
-		background-image: $url_11;
+		background-image: $wishlist-button-icon;
 		display: inline-block;
 		width: auto;
   }
@@ -72,7 +72,7 @@
 	.free-shipping {
     display: none;
     margin: 10px 0;
-    background: $url_19 left center no-repeat;
+    background: $shipping-icon left center no-repeat;
     padding: 2px 0 2px 28px;
     font-weight: bold;
     color: $font_color;

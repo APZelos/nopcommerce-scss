@@ -68,12 +68,12 @@
   }
   
 	.rating {
-		background: $url_8 repeat-x;
+		background: $rating1-icon repeat-x;
 		width: 95px;
     height: 14px;
     
 		div {
-			background: $url_9 repeat-x;
+			background: $rating2-icon repeat-x;
 			height: 14px;
 		}
   }
@@ -145,11 +145,11 @@
   }
   
 	.add-to-compare-list-button {
-    background-image: $url_10;
+    background-image: $compare-button-icon;
   }
   
 	.add-to-wishlist-button {
-    background-image: $url_11;
+    background-image: $wishlist-button-icon;
   }
   
 	&:hover .picture a img {

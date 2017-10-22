@@ -33,12 +33,12 @@
     
 		&.ui-datepicker-prev {
 			left: 0;
-			background: $url_20 center no-repeat;
+			background: $calendar-prev-icon center no-repeat;
     }
     
 		&.ui-datepicker-next {
 			right: 0;
-			background: $url_21 center no-repeat;
+			background: $calendar-next-icon center no-repeat;
     }
     
 		span {

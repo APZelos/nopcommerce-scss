@@ -38,24 +38,24 @@
 }
 
 .edit-address-button {
-	background: $url_23 left center no-repeat;
+	background: $edit-icon left center no-repeat;
 }
 
 .delete-address-button,
 .cancel-recurring-order-button {
-	background: $url_22 left center no-repeat;
+	background: $remove-icon left center no-repeat;
 }
 
 .retry-recurring-order-button {
-	background: $url_24 left center no-repeat;
+	background: $retry-icon left center no-repeat;
 }
 
 .return-items-button {
-	background: $url_25 left center no-repeat;
+	background: $return-icon left center no-repeat;
 }
 
 .order-details-button {
-	background: $url_26 left center no-repeat;
+	background: $details-icon left center no-repeat;
 }
 
 @media all and(min-width: 769px) {
